@@ -1,0 +1,1481 @@
+{
+  "total": 210,
+  "counts": {
+    "classification-scope": 134,
+    "quantitative-with-comparator": 45,
+    "architecture-level": 31
+  },
+  "r161_reformulation_flag_count": 104,
+  "entries": [
+    {
+      "id": "C-001",
+      "kind": "classification-scope",
+      "quantitative_validation": "Classification closure; underlying experimental observations remain valid and are not erased.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-002",
+      "kind": "classification-scope",
+      "quantitative_validation": "Classification closure; underlying experimental observations remain valid and are not erased.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-003",
+      "kind": "classification-scope",
+      "quantitative_validation": "Classification closure; underlying experimental observations remain valid and are not erased.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-004",
+      "kind": "classification-scope",
+      "quantitative_validation": "Classification closure; underlying experimental observations remain valid and are not erased.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-005",
+      "kind": "classification-scope",
+      "quantitative_validation": "Classification closure; underlying experimental observations remain valid and are not erased.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-006",
+      "kind": "classification-scope",
+      "quantitative_validation": "Classification closure; underlying experimental observations remain valid and are not erased.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-007",
+      "kind": "classification-scope",
+      "quantitative_validation": "Classification closure; underlying experimental observations remain valid and are not erased.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-008",
+      "kind": "classification-scope",
+      "quantitative_validation": "Classification closure; underlying experimental observations remain valid and are not erased.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-009",
+      "kind": "classification-scope",
+      "quantitative_validation": "R133/R134 record distinct orientation/material response landscapes; R153 terminal PASS_EXCITATION_PROPAGATION_SHAPING_BY_EXISTING_STRUCTURE. Conventional optical numeric correspondence remains downstream.",
+      "boundary": "Does not deny the empirical utility or success of photon/QED classification. Project-wide certification requirement: any conventional c, wavelength, temperature, lux/radiometric quantity, refractive index, Snell relation, attenuation coefficient, or equivalent may be introduced only after the SEAM-native result is frozen, as downstream correspondence/Hamiltonian-ratio equivalence.",
+      "formal_result": "PASS \u2014 R154 formal structural closure. Excitation is an evaluation/perturbation of the already-resolved complete material structure; crystal orientation and material structure shape the response. The former direct G_exc conversion requirement is retired as misframed."
+    },
+    {
+      "id": "C-010",
+      "kind": "classification-scope",
+      "quantitative_validation": "Classification closure; underlying experimental observations remain valid and are not erased.",
+      "boundary": "Classification/inference only; beam-control and detector measurements remain valid observations. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-011",
+      "kind": "classification-scope",
+      "quantitative_validation": "Classification closure; underlying experimental observations remain valid and are not erased.",
+      "boundary": "Charge classification/ontology only; observed charge relations are retained. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-012",
+      "kind": "classification-scope",
+      "quantitative_validation": "Classification closure; underlying experimental observations remain valid and are not erased.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-013",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "Z=1..128 native shell/state continuation is retained; NUBASE comparison is post-freeze.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "C-014",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "Z=1..128 native shell/state continuation is retained; NUBASE comparison is post-freeze.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "C-015",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "3,916 successive stripping/reclosure steps return to the original structural state with maximum componentwise residual 0.0 where documented.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "C-016",
+      "kind": "architecture-level",
+      "quantitative_validation": "Constructive same-composition/different-relation counterexample; numeric accuracy is not applicable.",
+      "boundary": "Does not claim every conventional label is always correct; only that the registered isomer label follows the demonstrated state distinction.",
+      "formal_result": "PASS. Structural distinction existed before labeling; the label was not used as a state generator."
+    },
+    {
+      "id": "C-017",
+      "kind": "classification-scope",
+      "quantitative_validation": "Logical/structural closure; no scalar vacuum magnitude is claimed.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-018",
+      "kind": "classification-scope",
+      "quantitative_validation": "Ontology/inference closure; no scalar vacuum-energy prediction is claimed.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-019",
+      "kind": "classification-scope",
+      "quantitative_validation": "Classification closure; no claim that every astronomical residual is numerically resolved by SEAM.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-020",
+      "kind": "classification-scope",
+      "quantitative_validation": "Classification/ontology closure; no alternative cosmological parameter fit is claimed.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-021",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "R24 derives H_ext=-Q_AB/N_R and F_ext=-Q_AB/N_R^2 and returns zero residual on the Binet/conic substitution. No empirical percent accuracy is asserted by that residual.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-022",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "R24 derives H_ext=-Q_AB/N_R and F_ext=-Q_AB/N_R^2 and returns zero residual on the Binet/conic substitution. No empirical percent accuracy is asserted by that residual.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-023",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "R24 derives H_ext=-Q_AB/N_R and F_ext=-Q_AB/N_R^2 and returns zero residual on the Binet/conic substitution. No empirical percent accuracy is asserted by that residual.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-024",
+      "kind": "classification-scope",
+      "quantitative_validation": "Native field/Hamiltonian/force quantities are executed where recorded; conventional unit correspondence is separate.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "C-025",
+      "kind": "classification-scope",
+      "quantitative_validation": "Native field/Hamiltonian/force quantities are executed where recorded; conventional unit correspondence is separate.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "C-026",
+      "kind": "classification-scope",
+      "quantitative_validation": "Native field/Hamiltonian/force quantities are executed where recorded; conventional unit correspondence is separate.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "C-027",
+      "kind": "classification-scope",
+      "quantitative_validation": "Closure is structural/facet ontology; conventional thermal values are comparator coordinates, not native generators.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-028",
+      "kind": "classification-scope",
+      "quantitative_validation": "Closure is structural/facet ontology; conventional thermal values are comparator coordinates, not native generators.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-029",
+      "kind": "classification-scope",
+      "quantitative_validation": "Closure is structural/facet ontology; conventional thermal values are comparator coordinates, not native generators.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-030",
+      "kind": "classification-scope",
+      "quantitative_validation": "Closure is structural/facet ontology; conventional thermal values are comparator coordinates, not native generators.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-031",
+      "kind": "classification-scope",
+      "quantitative_validation": "Claim-specific biological/population comparators are retained in their locked records; no independent selector is introduced.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-032",
+      "kind": "classification-scope",
+      "quantitative_validation": "Claim-specific biological/population comparators are retained in their locked records; no independent selector is introduced.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-033",
+      "kind": "classification-scope",
+      "quantitative_validation": "Claim-specific biological/population comparators are retained in their locked records; no independent selector is introduced.",
+      "boundary": "Does not claim that an observed sign can never participate causally in some separate downstream process or that all diseases share the same manifestations.",
+      "formal_result": "PASS. One frozen altered biological state projected multiple signs; removing one sign left the upstream state unchanged."
+    },
+    {
+      "id": "C-034",
+      "kind": "classification-scope",
+      "quantitative_validation": "Claim-specific biological/population comparators are retained in their locked records; no independent selector is introduced.",
+      "boundary": "Risk-statistic classification only; no specific risk estimate or epidemiologic causal effect is calculated.",
+      "formal_result": "PASS \u2014 R140 DOWNSTREAM DEPENDENCY BINDING"
+    },
+    {
+      "id": "C-035",
+      "kind": "classification-scope",
+      "quantitative_validation": "Closure is causal/representational; drug-specific PK numeric accuracy is claimed only where the source record reports it.",
+      "boundary": "Does not claim clearance/half-life are invalid or unuseful, and does not predict their numerical values. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-036",
+      "kind": "classification-scope",
+      "quantitative_validation": "Logical/structural overlap controls; numeric accuracy not applicable.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "C-037",
+      "kind": "classification-scope",
+      "quantitative_validation": "Logical/structural overlap controls; numeric accuracy not applicable.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "C-038",
+      "kind": "classification-scope",
+      "quantitative_validation": "Formal/ontology closure; conventional formalism accuracy is retained, not denied.",
+      "boundary": "Regime/ontology inference only; no claim that classical and quantum predictions are identical. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-039",
+      "kind": "classification-scope",
+      "quantitative_validation": "Formal/ontology closure; conventional formalism accuracy is retained, not denied.",
+      "boundary": "Classification/causal-order inference only; no quantitative decoherence transition is derived. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-040",
+      "kind": "architecture-level",
+      "quantitative_validation": "Constructive deterministic sequence can satisfy the statistical test; numeric physical accuracy is not applicable.",
+      "boundary": "Does not claim that quantum outcomes or all physical processes are deterministic.",
+      "formal_result": "PASS. The deterministic sequence x_i=i mod 4 produced exactly uniform four-bin counts while remaining exactly reproducible and predictable."
+    },
+    {
+      "id": "C-041",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "Empirical structured-residual closure; no claim that every residual is meaningful.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "C-042",
+      "kind": "classification-scope",
+      "quantitative_validation": "Logical/epistemic closure; no universal numerical accuracy claim applies unless separately recorded.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-043",
+      "kind": "classification-scope",
+      "quantitative_validation": "Logical/epistemic closure; no universal numerical accuracy claim applies unless separately recorded.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-044",
+      "kind": "classification-scope",
+      "quantitative_validation": "Formal/ontology closure; conventional formalism accuracy is retained, not denied.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-045",
+      "kind": "classification-scope",
+      "quantitative_validation": "Formal/ontology closure; conventional formalism accuracy is retained, not denied.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-046",
+      "kind": "classification-scope",
+      "quantitative_validation": "Formal/ontology closure; conventional formalism accuracy is retained, not denied.",
+      "boundary": "Lagrangian ontology/inference only; the mathematical validity of Euler-Lagrange methods is retained. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-047",
+      "kind": "architecture-level",
+      "quantitative_validation": "Counterexample closure; numeric accuracy not applicable.",
+      "boundary": "Does not reject parsimony as a useful heuristic, regularizer, or ceteris-paribus preference.",
+      "formal_result": "PASS. Both models fit the training evidence; the held-out observation rejected the simpler model and accepted the more complex model."
+    },
+    {
+      "id": "C-048",
+      "kind": "classification-scope",
+      "quantitative_validation": "Logical/epistemic closure; no universal numerical accuracy claim applies unless separately recorded.",
+      "boundary": "Evidence-order classification only; no statement that fitted models are useless or invalid within their declared class. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-049",
+      "kind": "classification-scope",
+      "quantitative_validation": "Logical/epistemic closure; no universal numerical accuracy claim applies unless separately recorded.",
+      "boundary": "Simulation-evidence classification only; no claim that a particular simulation is incorrect. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-050",
+      "kind": "classification-scope",
+      "quantitative_validation": "Logical/epistemic closure; no universal numerical accuracy claim applies unless separately recorded.",
+      "boundary": "Epistemic standing only; does not weaken either formal proof or empirical evidence when each is properly labeled. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-051",
+      "kind": "classification-scope",
+      "quantitative_validation": "Logical/epistemic closure; no universal numerical accuracy claim applies unless separately recorded.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-052",
+      "kind": "classification-scope",
+      "quantitative_validation": "Logical/epistemic closure; no universal numerical accuracy claim applies unless separately recorded.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-053",
+      "kind": "classification-scope",
+      "quantitative_validation": "Logical/epistemic closure; no universal numerical accuracy claim applies unless separately recorded.",
+      "boundary": "Reference-data role only; external data may still be legitimate declared input when a contract explicitly defines it as such. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-054",
+      "kind": "classification-scope",
+      "quantitative_validation": "Logical scope closure.",
+      "boundary": "Does not assert that every missing local artifact necessarily exists elsewhere.",
+      "formal_result": "PASS. The target was absent from the inspected lineage and present in another project lineage."
+    },
+    {
+      "id": "C-055",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "Constructive separation closure.",
+      "boundary": "Does not imply that implementation details are irrelevant where executable behavior is part of a scientific claim.",
+      "formal_result": "PASS. Two distinct implementations reproduced y=x\u00b2 over the frozen domain, while one parameterized runtime template realized a different mathematical relation."
+    },
+    {
+      "id": "C-056",
+      "kind": "classification-scope",
+      "quantitative_validation": "Logical/epistemic closure; no universal numerical accuracy claim applies unless separately recorded.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "C-057",
+      "kind": "classification-scope",
+      "quantitative_validation": "Logical/epistemic closure; no universal numerical accuracy claim applies unless separately recorded.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "C-058",
+      "kind": "classification-scope",
+      "quantitative_validation": "Classification closure; underlying experimental observations remain valid and are not erased.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-059",
+      "kind": "architecture-level",
+      "quantitative_validation": "R158 terminal PASS_S061_O042_C059_GEOLOGY_SCOPE_CLOSURE; blind plate-velocity prediction is outside this claim scope.",
+      "boundary": "Does not deny empirical support for slab pull, ridge push, mantle flow, lithospheric strength, or other conventional geodynamic mechanisms.",
+      "formal_result": "PASS \u2014 observed plate motion is compatible with multiple candidate driver decompositions; USGS explicitly states that no proposed mechanism explains all facets and the details remain incompletely understood."
+    },
+    {
+      "id": "C-060",
+      "kind": "classification-scope",
+      "quantitative_validation": "Projection/causal closure; no universal ocean-atmosphere forecast accuracy is asserted.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "C-061",
+      "kind": "classification-scope",
+      "quantitative_validation": "Claim-specific biological/population comparators are retained in their locked records; no independent selector is introduced.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-062",
+      "kind": "classification-scope",
+      "quantitative_validation": "Claim-specific biological/population comparators are retained in their locked records; no independent selector is introduced.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "C-063",
+      "kind": "classification-scope",
+      "quantitative_validation": "Claim-specific biological/population comparators are retained in their locked records; no independent selector is introduced.",
+      "boundary": "Does not claim a quantitative derivation of every epigenetic mechanism or every inheritance pathway.",
+      "formal_result": "PASS. Fixed blueprint plus differing contextual coordinates generated distinct admissible complete-state representations."
+    },
+    {
+      "id": "C-064",
+      "kind": "classification-scope",
+      "quantitative_validation": "Claim-specific biological/population comparators are retained in their locked records; no independent selector is introduced.",
+      "boundary": "Does not claim that clinical models are noncausal, useless, or incapable of valid prediction.",
+      "formal_result": "PASS. Two distinct equations fit all frozen observations exactly and produced different probe predictions."
+    },
+    {
+      "id": "C-065",
+      "kind": "classification-scope",
+      "quantitative_validation": "R155 terminal PASS_C065_C066_C067_META_INFERENCE_CLOSURE.",
+      "boundary": "Closes only the inference boundary; does not claim historical, semantic, or normative questions are meaningless or incapable of evidence-based analysis.",
+      "formal_result": "PASS \u2014 constructive non-uniqueness counterexample; internal/formal representation does not uniquely establish the registered external causal, semantic, or normative claim."
+    },
+    {
+      "id": "C-066",
+      "kind": "classification-scope",
+      "quantitative_validation": "R155 terminal PASS_C065_C066_C067_META_INFERENCE_CLOSURE.",
+      "boundary": "Closes only the inference boundary; does not claim historical, semantic, or normative questions are meaningless or incapable of evidence-based analysis.",
+      "formal_result": "PASS \u2014 constructive non-uniqueness counterexample; internal/formal representation does not uniquely establish the registered external causal, semantic, or normative claim."
+    },
+    {
+      "id": "C-067",
+      "kind": "classification-scope",
+      "quantitative_validation": "R155 terminal PASS_C065_C066_C067_META_INFERENCE_CLOSURE.",
+      "boundary": "Closes only the inference boundary; does not claim historical, semantic, or normative questions are meaningless or incapable of evidence-based analysis.",
+      "formal_result": "PASS \u2014 constructive non-uniqueness counterexample; internal/formal representation does not uniquely establish the registered external causal, semantic, or normative claim."
+    },
+    {
+      "id": "C-068",
+      "kind": "classification-scope",
+      "quantitative_validation": "Structural persistence/inference closure; no consciousness metric is claimed.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "C-069",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "Locked accelerometer/sensor evidence demonstrates structured residual behavior within the recorded test scope.",
+      "boundary": "RF anomaly classification only; does not claim a particular RF irregularity maps a physical object without RF-specific validation.",
+      "formal_result": "PASS \u2014 R140 DOWNSTREAM DEPENDENCY BINDING"
+    },
+    {
+      "id": "C-070",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "Locked accelerometer/sensor evidence demonstrates structured residual behavior within the recorded test scope.",
+      "boundary": "Classification/inference scope only; does not erase or deny the underlying empirical observation represented by the conventional label.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "O-001",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "R24 derives H_ext=-Q_AB/N_R and F_ext=-Q_AB/N_R^2 and returns zero residual on the Binet/conic substitution. No empirical percent accuracy is asserted by that residual.",
+      "boundary": "R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-002",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "R24 derives H_ext=-Q_AB/N_R and F_ext=-Q_AB/N_R^2 and returns zero residual on the Binet/conic substitution. No empirical percent accuracy is asserted by that residual.",
+      "boundary": "R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-003",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "R24 derives H_ext=-Q_AB/N_R and F_ext=-Q_AB/N_R^2 and returns zero residual on the Binet/conic substitution. No empirical percent accuracy is asserted by that residual.",
+      "boundary": "R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-004",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "R24 derives H_ext=-Q_AB/N_R and F_ext=-Q_AB/N_R^2 and returns zero residual on the Binet/conic substitution. No empirical percent accuracy is asserted by that residual.",
+      "boundary": "R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-005",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "R24 derives H_ext=-Q_AB/N_R and F_ext=-Q_AB/N_R^2 and returns zero residual on the Binet/conic substitution. No empirical percent accuracy is asserted by that residual.",
+      "boundary": "R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-006",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "R24 derives H_ext=-Q_AB/N_R and F_ext=-Q_AB/N_R^2 and returns zero residual on the Binet/conic substitution. No empirical percent accuracy is asserted by that residual.",
+      "boundary": "R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-007",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "R24 derives H_ext=-Q_AB/N_R and F_ext=-Q_AB/N_R^2 and returns zero residual on the Binet/conic substitution. No empirical percent accuracy is asserted by that residual.",
+      "boundary": "R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-008",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "R24 derives H_ext=-Q_AB/N_R and F_ext=-Q_AB/N_R^2 and returns zero residual on the Binet/conic substitution. No empirical percent accuracy is asserted by that residual.",
+      "boundary": "R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-009",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "R24 derives H_ext=-Q_AB/N_R and F_ext=-Q_AB/N_R^2 and returns zero residual on the Binet/conic substitution. No empirical percent accuracy is asserted by that residual.",
+      "boundary": "R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-010",
+      "kind": "architecture-level",
+      "quantitative_validation": "R133/R134 record distinct orientation/material response landscapes; R153 terminal PASS_EXCITATION_PROPAGATION_SHAPING_BY_EXISTING_STRUCTURE. Conventional optical numeric correspondence remains downstream.",
+      "boundary": "",
+      "formal_result": "Matter-mediated source-to-detector propagation is recorded as the canonical architecture."
+    },
+    {
+      "id": "O-011",
+      "kind": "architecture-level",
+      "quantitative_validation": "R133/R134 record distinct orientation/material response landscapes; R153 terminal PASS_EXCITATION_PROPAGATION_SHAPING_BY_EXISTING_STRUCTURE. Conventional optical numeric correspondence remains downstream.",
+      "boundary": "Does not derive n numerically from native G_exc. Project-wide certification requirement: any conventional c, wavelength, temperature, lux/radiometric quantity, refractive index, Snell relation, attenuation coefficient, or equivalent may be introduced only after the SEAM-native result is frozen, as downstream correspondence/Hamiltonian-ratio equivalence.",
+      "formal_result": "PASS \u2014 R154 formal structural closure. Excitation is an evaluation/perturbation of the already-resolved complete material structure; crystal orientation and material structure shape the response. The former direct G_exc conversion requirement is retired as misframed."
+    },
+    {
+      "id": "O-012",
+      "kind": "architecture-level",
+      "quantitative_validation": "R133/R134 record distinct orientation/material response landscapes; R153 terminal PASS_EXCITATION_PROPAGATION_SHAPING_BY_EXISTING_STRUCTURE. Conventional optical numeric correspondence remains downstream.",
+      "boundary": "Does not derive a physical exit angle from G_exc. Project-wide certification requirement: any conventional c, wavelength, temperature, lux/radiometric quantity, refractive index, Snell relation, attenuation coefficient, or equivalent may be introduced only after the SEAM-native result is frozen, as downstream correspondence/Hamiltonian-ratio equivalence.",
+      "formal_result": "PASS \u2014 R154 formal structural closure. Excitation is an evaluation/perturbation of the already-resolved complete material structure; crystal orientation and material structure shape the response. The former direct G_exc conversion requirement is retired as misframed."
+    },
+    {
+      "id": "O-013",
+      "kind": "architecture-level",
+      "quantitative_validation": "R133/R134 record distinct orientation/material response landscapes; R153 terminal PASS_EXCITATION_PROPAGATION_SHAPING_BY_EXISTING_STRUCTURE. Conventional optical numeric correspondence remains downstream.",
+      "boundary": "Does not derive the dispersion curve from native G_exc. Project-wide certification requirement: any conventional c, wavelength, temperature, lux/radiometric quantity, refractive index, Snell relation, attenuation coefficient, or equivalent may be introduced only after the SEAM-native result is frozen, as downstream correspondence/Hamiltonian-ratio equivalence.",
+      "formal_result": "PASS \u2014 R154 formal structural closure. Excitation is an evaluation/perturbation of the already-resolved complete material structure; crystal orientation and material structure shape the response. The former direct G_exc conversion requirement is retired as misframed."
+    },
+    {
+      "id": "O-014",
+      "kind": "architecture-level",
+      "quantitative_validation": "R133/R134 record distinct orientation/material response landscapes; R153 terminal PASS_EXCITATION_PROPAGATION_SHAPING_BY_EXISTING_STRUCTURE. Conventional optical numeric correspondence remains downstream.",
+      "boundary": "Does not derive Cherenkov emission or angle from SEAM first principles. Project-wide certification requirement: any conventional c, wavelength, temperature, lux/radiometric quantity, refractive index, Snell relation, attenuation coefficient, or equivalent may be introduced only after the SEAM-native result is frozen, as downstream correspondence/Hamiltonian-ratio equivalence.",
+      "formal_result": "PASS \u2014 R154 formal structural closure. Excitation is an evaluation/perturbation of the already-resolved complete material structure; crystal orientation and material structure shape the response. The former direct G_exc conversion requirement is retired as misframed."
+    },
+    {
+      "id": "O-015",
+      "kind": "architecture-level",
+      "quantitative_validation": "R133/R134 record distinct orientation/material response landscapes; R153 terminal PASS_EXCITATION_PROPAGATION_SHAPING_BY_EXISTING_STRUCTURE. Conventional optical numeric correspondence remains downstream.",
+      "boundary": "Does not predict spectral wavelengths or intensities from G_exc. Project-wide certification requirement: any conventional c, wavelength, temperature, lux/radiometric quantity, refractive index, Snell relation, attenuation coefficient, or equivalent may be introduced only after the SEAM-native result is frozen, as downstream correspondence/Hamiltonian-ratio equivalence.",
+      "formal_result": "PASS \u2014 R154 formal structural closure. Excitation is an evaluation/perturbation of the already-resolved complete material structure; crystal orientation and material structure shape the response. The former direct G_exc conversion requirement is retired as misframed."
+    },
+    {
+      "id": "O-016",
+      "kind": "architecture-level",
+      "quantitative_validation": "R133/R134 record distinct orientation/material response landscapes; R153 terminal PASS_EXCITATION_PROPAGATION_SHAPING_BY_EXISTING_STRUCTURE. Conventional optical numeric correspondence remains downstream.",
+      "boundary": "Does not derive absorption coefficients or attenuation numerically from SEAM. Project-wide certification requirement: any conventional c, wavelength, temperature, lux/radiometric quantity, refractive index, Snell relation, attenuation coefficient, or equivalent may be introduced only after the SEAM-native result is frozen, as downstream correspondence/Hamiltonian-ratio equivalence.",
+      "formal_result": "PASS \u2014 R154 formal structural closure. Excitation is an evaluation/perturbation of the already-resolved complete material structure; crystal orientation and material structure shape the response. The former direct G_exc conversion requirement is retired as misframed."
+    },
+    {
+      "id": "O-017",
+      "kind": "architecture-level",
+      "quantitative_validation": "R133/R134 record distinct orientation/material response landscapes; R153 terminal PASS_EXCITATION_PROPAGATION_SHAPING_BY_EXISTING_STRUCTURE. Conventional optical numeric correspondence remains downstream.",
+      "boundary": "Does not derive source power or detector response from native SEAM. Project-wide certification requirement: any conventional c, wavelength, temperature, lux/radiometric quantity, refractive index, Snell relation, attenuation coefficient, or equivalent may be introduced only after the SEAM-native result is frozen, as downstream correspondence/Hamiltonian-ratio equivalence.",
+      "formal_result": "PASS \u2014 R154 formal structural closure. Excitation is an evaluation/perturbation of the already-resolved complete material structure; crystal orientation and material structure shape the response. The former direct G_exc conversion requirement is retired as misframed."
+    },
+    {
+      "id": "O-018",
+      "kind": "classification-scope",
+      "quantitative_validation": "Formal/ontology closure; conventional formalism accuracy is retained, not denied.",
+      "boundary": "Observation/representation inference only; underlying empirical observations and conventional equations remain valid in their measured regimes. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-019",
+      "kind": "classification-scope",
+      "quantitative_validation": "Formal/ontology closure; conventional formalism accuracy is retained, not denied.",
+      "boundary": "Observation/representation inference only; underlying empirical observations and conventional equations remain valid in their measured regimes. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-020",
+      "kind": "classification-scope",
+      "quantitative_validation": "Formal/ontology closure; conventional formalism accuracy is retained, not denied.",
+      "boundary": "Wave-equation ontology/representation only; no wavelength, speed, attenuation, or spectral prediction is added.",
+      "formal_result": "PASS \u2014 R140 DOWNSTREAM DEPENDENCY BINDING"
+    },
+    {
+      "id": "O-021",
+      "kind": "architecture-level",
+      "quantitative_validation": "R133/R134 record distinct orientation/material response landscapes; R153 terminal PASS_EXCITATION_PROPAGATION_SHAPING_BY_EXISTING_STRUCTURE. Conventional optical numeric correspondence remains downstream.",
+      "boundary": "Does not assert empirical variation of c. Project-wide certification requirement: any conventional c, wavelength, temperature, lux/radiometric quantity, refractive index, Snell relation, attenuation coefficient, or equivalent may be introduced only after the SEAM-native result is frozen, as downstream correspondence/Hamiltonian-ratio equivalence.",
+      "formal_result": "PASS \u2014 R154 formal structural closure. Excitation is an evaluation/perturbation of the already-resolved complete material structure; crystal orientation and material structure shape the response. The former direct G_exc conversion requirement is retired as misframed."
+    },
+    {
+      "id": "O-022",
+      "kind": "classification-scope",
+      "quantitative_validation": "Closure is structural/facet ontology; conventional thermal values are comparator coordinates, not native generators.",
+      "boundary": "Observation/representation inference only; underlying empirical observations and conventional equations remain valid in their measured regimes. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-023",
+      "kind": "classification-scope",
+      "quantitative_validation": "Native field/Hamiltonian/force quantities are executed where recorded; conventional unit correspondence is separate.",
+      "boundary": "Curie-Weiss representational status only; no susceptibility curve or Curie temperature is predicted.",
+      "formal_result": "PASS \u2014 R140 DOWNSTREAM DEPENDENCY BINDING"
+    },
+    {
+      "id": "O-024",
+      "kind": "classification-scope",
+      "quantitative_validation": "Closure is structural/facet ontology; conventional thermal values are comparator coordinates, not native generators.",
+      "boundary": "Observation/representation inference only; underlying empirical observations and conventional equations remain valid in their measured regimes. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-025",
+      "kind": "classification-scope",
+      "quantitative_validation": "Closure is structural/facet ontology; conventional thermal values are comparator coordinates, not native generators.",
+      "boundary": "Observation/representation inference only; underlying empirical observations and conventional equations remain valid in their measured regimes. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-026",
+      "kind": "classification-scope",
+      "quantitative_validation": "Closure is structural/facet ontology; conventional thermal values are comparator coordinates, not native generators.",
+      "boundary": "Observation/representation inference only; underlying empirical observations and conventional equations remain valid in their measured regimes. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-027",
+      "kind": "classification-scope",
+      "quantitative_validation": "Closure is structural/facet ontology; conventional thermal values are comparator coordinates, not native generators.",
+      "boundary": "Observation/representation inference only; underlying empirical observations and conventional equations remain valid in their measured regimes.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "O-028",
+      "kind": "classification-scope",
+      "quantitative_validation": "Native field/Hamiltonian/force quantities are executed where recorded; conventional unit correspondence is separate.",
+      "boundary": "Ontology/representation of the cyclotron relation only; no independent derivation of numerical cyclotron frequency is claimed.",
+      "formal_result": "PASS \u2014 R140 DOWNSTREAM DEPENDENCY BINDING"
+    },
+    {
+      "id": "O-029",
+      "kind": "classification-scope",
+      "quantitative_validation": "Native field/Hamiltonian/force quantities are executed where recorded; conventional unit correspondence is separate.",
+      "boundary": "Charge-bookkeeping inference only; measured charge relations are retained. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-030",
+      "kind": "classification-scope",
+      "quantitative_validation": "Native field/Hamiltonian/force quantities are executed where recorded; conventional unit correspondence is separate.",
+      "boundary": "Voltage ontology/representation only; no new electrostatic or circuit law is derived. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-031",
+      "kind": "classification-scope",
+      "quantitative_validation": "Native field/Hamiltonian/force quantities are executed where recorded; conventional unit correspondence is separate.",
+      "boundary": "Current ontology/representation only; no quantitative current law is newly derived. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-032",
+      "kind": "classification-scope",
+      "quantitative_validation": "Scientific closure is at mechanism/classification scope; no universal efficiency gain is claimed.",
+      "boundary": "Nernst causal/representational status only; no numerical electrode potential prediction is added. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-033",
+      "kind": "classification-scope",
+      "quantitative_validation": "Scientific closure is at mechanism/classification scope; no universal efficiency gain is claimed.",
+      "boundary": "GHK representational status only; no membrane permeability or voltage value is predicted. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-034",
+      "kind": "classification-scope",
+      "quantitative_validation": "Scientific closure is at mechanism/classification scope; no universal efficiency gain is claimed.",
+      "boundary": "Ohmic membrane-current representational status only; no conductance/current magnitude is predicted. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-035",
+      "kind": "classification-scope",
+      "quantitative_validation": "Mechanism closure; equation-specific accuracy is supplied only by independent comparators where recorded.",
+      "boundary": "Observation/representation inference only; underlying empirical observations and conventional equations remain valid in their measured regimes.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "O-036",
+      "kind": "classification-scope",
+      "quantitative_validation": "Mechanism closure; equation-specific accuracy is supplied only by independent comparators where recorded.",
+      "boundary": "Observation/representation inference only; underlying empirical observations and conventional equations remain valid in their measured regimes.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "O-037",
+      "kind": "classification-scope",
+      "quantitative_validation": "Structural redistribution lock; no universal diffusion coefficient is claimed.",
+      "boundary": "Observation/representation inference only; underlying empirical observations and conventional equations remain valid in their measured regimes.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "O-038",
+      "kind": "classification-scope",
+      "quantitative_validation": "Mechanism closure; equation-specific accuracy is supplied only by independent comparators where recorded.",
+      "boundary": "Observation/representation inference only; underlying empirical observations and conventional equations remain valid in their measured regimes.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "O-039",
+      "kind": "classification-scope",
+      "quantitative_validation": "Mechanism closure; equation-specific accuracy is supplied only by independent comparators where recorded.",
+      "boundary": "Observation/representation inference only; underlying empirical observations and conventional equations remain valid in their measured regimes.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "O-040",
+      "kind": "classification-scope",
+      "quantitative_validation": "Projection/causal closure; no universal ocean-atmosphere forecast accuracy is asserted.",
+      "boundary": "Observation/representation inference only; underlying empirical observations and conventional equations remain valid in their measured regimes.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "O-041",
+      "kind": "classification-scope",
+      "quantitative_validation": "Projection/causal closure; no universal ocean-atmosphere forecast accuracy is asserted.",
+      "boundary": "Observation/representation inference only; underlying empirical observations and conventional equations remain valid in their measured regimes.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "O-042",
+      "kind": "architecture-level",
+      "quantitative_validation": "R158 terminal PASS_S061_O042_C059_GEOLOGY_SCOPE_CLOSURE; blind plate-velocity prediction is outside this claim scope.",
+      "boundary": "Does not reject Euler-pole plate-motion models or their numerical accuracy within their empirical domain.",
+      "formal_result": "PASS \u2014 Euler pole/angular velocity is a compact kinematic plate-motion parameterization; it represents resolved motion but does not uniquely determine its cause."
+    },
+    {
+      "id": "O-043",
+      "kind": "classification-scope",
+      "quantitative_validation": "Counted-transition/accounting closure; empirical rate constants remain downstream.",
+      "boundary": "Observation/representation inference only; underlying empirical observations and conventional equations remain valid in their measured regimes.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "O-044",
+      "kind": "architecture-level",
+      "quantitative_validation": "Counted-transition/accounting closure; empirical rate constants remain downstream.",
+      "boundary": "Closes only the registered accounting-vs-causation claim. Does not establish universal polymerization kinetics, catalyst behavior, energetics, or condensation byproduct prediction.",
+      "formal_result": "PASS. Five monomer entities were merged through four explicit retained-entity events. Every event conserved monomer degree and atomic inventory; final degree 5 and C10H20 composition emerged from the event history. Deleting one carbon in the negative control was detected."
+    },
+    {
+      "id": "O-045",
+      "kind": "classification-scope",
+      "quantitative_validation": "R156 terminal PASS_S020_S021_NUCLEAR_ONTOLOGY_MECHANISM_CLOSURE; lifetime/branching prediction is not claimed as native closure.",
+      "boundary": "Does not derive the SEAM-native nuclear transition cause or a real nuclide decay constant.",
+      "formal_result": "PASS. Population decay history was counted from a frozen individual-event ledger. The decay-law description is therefore downstream of the event sequence in the locked run."
+    },
+    {
+      "id": "O-046",
+      "kind": "classification-scope",
+      "quantitative_validation": "R156 terminal PASS_S020_S021_NUCLEAR_ONTOLOGY_MECHANISM_CLOSURE; lifetime/branching prediction is not claimed as native closure.",
+      "boundary": "Does not predict a real nuclide half-life from SEAM first principles.",
+      "formal_result": "PASS. Half-life was derived as the first point at which the remaining population reached one-half. A distinct transition history produced the same half-life."
+    },
+    {
+      "id": "O-047",
+      "kind": "classification-scope",
+      "quantitative_validation": "R156 terminal PASS_S020_S021_NUCLEAR_ONTOLOGY_MECHANISM_CLOSURE; lifetime/branching prediction is not claimed as native closure.",
+      "boundary": "Does not predict a real nuclide branching ratio or derive the native branching selector.",
+      "formal_result": "PASS. Branch fractions were calculated from channel counts. Changing only channel outcomes changed the branch distribution without changing the transition-time ledger."
+    },
+    {
+      "id": "O-048",
+      "kind": "classification-scope",
+      "quantitative_validation": "R156 terminal PASS_S020_S021_NUCLEAR_ONTOLOGY_MECHANISM_CLOSURE; lifetime/branching prediction is not claimed as native closure.",
+      "boundary": "Closes only the source-order claim: mass defect/binding energy did not generate the native structural bands. Does not derive measured masses, binding energies, Q values, the missing PNE point selector, or universal containment of estimated nonexperimental nuclides.",
+      "formal_result": "PASS. The native Z=1..128 matrix was verified to contain EPN band fields without mass-excess/atomic-mass generator columns. All 2,549 evaluated experimental and all 288 natural NUBASE states are contained. Three estimated nonexperimental proton-unstable rows (Li-3, Be-5, B-6) are outside the bands and are explicitly retained as comparator exceptions."
+    },
+    {
+      "id": "O-049",
+      "kind": "architecture-level",
+      "quantitative_validation": "Complete-state molecular/pair closures are retained; only evidence records with explicit numerical bond comparisons may claim numeric accuracy.",
+      "boundary": "Retained as a full closure of the exact registered claim; does not establish unique physical bond length.",
+      "formal_result": "The H2 entropy objective and stable-maximum criterion are explicitly derived."
+    },
+    {
+      "id": "O-050",
+      "kind": "classification-scope",
+      "quantitative_validation": "Complete-state molecular/pair closures are retained; only evidence records with explicit numerical bond comparisons may claim numeric accuracy.",
+      "boundary": "Observation/representation inference only; underlying empirical observations and conventional equations remain valid in their measured regimes.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "O-051",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "3,916 successive stripping/reclosure steps return to the original structural state with maximum componentwise residual 0.0 where documented.",
+      "boundary": "Observation/representation inference only; underlying empirical observations and conventional equations remain valid in their measured regimes.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "O-052",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "3,916 successive stripping/reclosure steps return to the original structural state with maximum componentwise residual 0.0 where documented.",
+      "boundary": "Observation/representation inference only; underlying empirical observations and conventional equations remain valid in their measured regimes.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "O-053",
+      "kind": "classification-scope",
+      "quantitative_validation": "Claim-specific biological/population comparators are retained in their locked records; no independent selector is introduced.",
+      "boundary": "Does not assert universal HWE, absence of evolutionary forces in natural populations, or that random mating is mathematically necessary for HWE proportions.",
+      "formal_result": "PASS. Independent gamete pairing at A=3/5, a=2/5 generated AA=9/25, Aa=12/25, aa=4/25 and conserved allele frequencies. Fully assortative pairing with the same allele frequencies changed the genotype distribution."
+    },
+    {
+      "id": "O-054",
+      "kind": "classification-scope",
+      "quantitative_validation": "Claim-specific biological/population comparators are retained in their locked records; no independent selector is introduced.",
+      "boundary": "Does not claim all traits are Mendelian, complete dominance is universal, or independent assortment applies to linked loci.",
+      "formal_result": "PASS. Aa x Aa gamete events generated AA:Aa:aa = 1:2:1. Complete dominance projected the same genotypes to a 3:1 phenotype ratio; incomplete dominance changed the phenotype projection to 1:2:1 without changing inheritance."
+    },
+    {
+      "id": "O-055",
+      "kind": "classification-scope",
+      "quantitative_validation": "Claim-specific biological/population comparators are retained in their locked records; no independent selector is introduced.",
+      "boundary": "Observation/representation inference only; underlying empirical observations and conventional equations remain valid in their measured regimes. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-056",
+      "kind": "classification-scope",
+      "quantitative_validation": "Claim-specific biological/population comparators are retained in their locked records; no independent selector is introduced.",
+      "boundary": "Does not establish universal logistic dynamics, a real species carrying capacity, or empirical parameter values.",
+      "formal_result": "PASS. Individual event accounting generated 2\u21924\u21928\u219216\u219232 under unconstrained one-offspring-per-individual reproduction. A finite K=10 resource-slot condition saturated at 10 without using a logistic equation. Every population change equals the sum of individual events."
+    },
+    {
+      "id": "O-057",
+      "kind": "classification-scope",
+      "quantitative_validation": "Claim-specific biological/population comparators are retained in their locked records; no independent selector is introduced.",
+      "boundary": "Aggregate-model ontology only; no predator-prey parameter set, trajectory, equilibrium, or stability prediction is claimed.",
+      "formal_result": "PASS \u2014 R140 DOWNSTREAM DEPENDENCY BINDING"
+    },
+    {
+      "id": "O-058",
+      "kind": "architecture-level",
+      "quantitative_validation": "Closure is organizational/causal architecture; no sequence-to-native-fold geometry accuracy is claimed.",
+      "boundary": "Does not predict protein equilibrium constants, folding kinetics, intermediates, or native structure. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-059",
+      "kind": "classification-scope",
+      "quantitative_validation": "Closure is causal/representational; drug-specific PK numeric accuracy is claimed only where the source record reports it.",
+      "boundary": "Does not predict an organism- or drug-specific clearance value. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-060",
+      "kind": "classification-scope",
+      "quantitative_validation": "Closure is causal/representational; drug-specific PK numeric accuracy is claimed only where the source record reports it.",
+      "boundary": "Does not predict a concentration-time curve, elimination constant, distribution volume, or compartment number for a particular drug. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-061",
+      "kind": "classification-scope",
+      "quantitative_validation": "Closure is causal/representational; drug-specific PK numeric accuracy is claimed only where the source record reports it.",
+      "boundary": "Does not derive or predict an LD50, threshold, slope, toxicity endpoint, or dose-response curve from SEAM first principles. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-062",
+      "kind": "classification-scope",
+      "quantitative_validation": "Claim-specific biological/population comparators are retained in their locked records; no independent selector is introduced.",
+      "boundary": "Does not establish a specific pathogen model, parameter set, outbreak forecast, or universal adequacy of SIR.",
+      "formal_result": "PASS. Six individual states were propagated through explicit infection/recovery events; aggregate S/I/R counts were obtained after each event and conserved the six entities. A distinct contact/recovery history produced the same terminal S/I/R counts."
+    },
+    {
+      "id": "O-063",
+      "kind": "classification-scope",
+      "quantitative_validation": "Claim-specific biological/population comparators are retained in their locked records; no independent selector is introduced.",
+      "boundary": "Does not claim a perfect reference standard, clinical utility for a specific test, or causal diagnosis from diagnostic-accuracy metrics alone.",
+      "formal_result": "PASS. Sensitivity and specificity were calculated post hoc as 0.75/0.75 from frozen subject states and test observations. A different subject-level error assignment retained the same confusion counts and metrics, demonstrating that the scores summarize the sample rather than uniquely specify biological state."
+    },
+    {
+      "id": "O-064",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "Locked accelerometer/sensor evidence demonstrates structured residual behavior within the recorded test scope.",
+      "boundary": "Observation/representation inference only; underlying empirical observations and conventional equations remain valid in their measured regimes.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "O-065",
+      "kind": "classification-scope",
+      "quantitative_validation": "R157 terminal PASS_O065_RF_SPATIAL_STRUCTURAL_PROJECTION; exact RF-only object identity is not claimed.",
+      "boundary": "Does not claim RF alone uniquely reconstructs arbitrary 3-D geometry, material identity, or causal object classification. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-066",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "Locked accelerometer/sensor evidence demonstrates structured residual behavior within the recorded test scope.",
+      "boundary": "Candidate/anomaly handling only; no specific regional anomaly is asserted as a new physical cause.",
+      "formal_result": "PASS \u2014 R140 DOWNSTREAM DEPENDENCY BINDING"
+    },
+    {
+      "id": "O-067",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "Locked raw-tile/high-point result retained; semantic terrain identity is downstream.",
+      "boundary": "Observation/representation inference only; underlying empirical observations and conventional equations remain valid in their measured regimes.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "O-068",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "Native terminal count 8 in the locked anonymous membership run; external astronomy is revealed after freeze.",
+      "boundary": "Supplied anonymous candidate manifold; not a blind raw-telemetry discovery run. The registered claim concerns structural count versus semantic lookup, which is closed. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-069",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "R24 derives H_ext=-Q_AB/N_R and F_ext=-Q_AB/N_R^2 and returns zero residual on the Binet/conic substitution. No empirical percent accuracy is asserted by that residual.",
+      "boundary": "Epistemic classification of simulation agreement only; no claim that a particular N-body simulation is inaccurate. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "O-070",
+      "kind": "classification-scope",
+      "quantitative_validation": "Logical/epistemic closure; no universal numerical accuracy claim applies unless separately recorded.",
+      "boundary": "Observation/representation inference only; underlying empirical observations and conventional equations remain valid in their measured regimes. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-001",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "R24 derives H_ext=-Q_AB/N_R and F_ext=-Q_AB/N_R^2 and returns zero residual on the Binet/conic substitution. No empirical percent accuracy is asserted by that residual.",
+      "boundary": "Ontology/causal-architecture claim only; does not assert every gravitational observation is numerically predicted. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-002",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "R24 derives H_ext=-Q_AB/N_R and F_ext=-Q_AB/N_R^2 and returns zero residual on the Binet/conic substitution. No empirical percent accuracy is asserted by that residual.",
+      "boundary": "Representation-versus-substrate inference only. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-003",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "R24 derives H_ext=-Q_AB/N_R and F_ext=-Q_AB/N_R^2 and returns zero residual on the Binet/conic substitution. No empirical percent accuracy is asserted by that residual.",
+      "boundary": "Architecture claim; conventional mass remains a valid downstream quantity. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-004",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "R24 derives H_ext=-Q_AB/N_R and F_ext=-Q_AB/N_R^2 and returns zero residual on the Binet/conic substitution. No empirical percent accuracy is asserted by that residual.",
+      "boundary": "Continuity-of-interaction architecture; not universal numerical solution of all scales. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-005",
+      "kind": "classification-scope",
+      "quantitative_validation": "Logical/structural closure; no scalar vacuum magnitude is claimed.",
+      "boundary": "Does not invalidate conventional vacuum measurements; closes only the ontology claim. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-006",
+      "kind": "architecture-level",
+      "quantitative_validation": "R133/R134 record distinct orientation/material response landscapes; R153 terminal PASS_EXCITATION_PROPAGATION_SHAPING_BY_EXISTING_STRUCTURE. Conventional optical numeric correspondence remains downstream.",
+      "boundary": "No numerical speed, attenuation, or full-spectrum response is claimed. Project-wide certification requirement: any conventional c, wavelength, temperature, lux/radiometric quantity, refractive index, Snell relation, attenuation coefficient, or equivalent may be introduced only after the SEAM-native result is frozen, as downstream correspondence/Hamiltonian-ratio equivalence.",
+      "formal_result": "PASS \u2014 R154 formal structural closure. Excitation is an evaluation/perturbation of the already-resolved complete material structure; crystal orientation and material structure shape the response. The former direct G_exc conversion requirement is retired as misframed."
+    },
+    {
+      "id": "S-007",
+      "kind": "architecture-level",
+      "quantitative_validation": "R133/R134 record distinct orientation/material response landscapes; R153 terminal PASS_EXCITATION_PROPAGATION_SHAPING_BY_EXISTING_STRUCTURE. Conventional optical numeric correspondence remains downstream.",
+      "boundary": "Does not claim measured vacuum c varies or that Lorentz-invariance experiments fail. Project-wide certification requirement: any conventional c, wavelength, temperature, lux/radiometric quantity, refractive index, Snell relation, attenuation coefficient, or equivalent may be introduced only after the SEAM-native result is frozen, as downstream correspondence/Hamiltonian-ratio equivalence.",
+      "formal_result": "PASS \u2014 R154 formal structural closure. Excitation is an evaluation/perturbation of the already-resolved complete material structure; crystal orientation and material structure shape the response. The former direct G_exc conversion requirement is retired as misframed."
+    },
+    {
+      "id": "S-008",
+      "kind": "classification-scope",
+      "quantitative_validation": "R133/R134 record distinct orientation/material response landscapes; R153 terminal PASS_EXCITATION_PROPAGATION_SHAPING_BY_EXISTING_STRUCTURE. Conventional optical numeric correspondence remains downstream.",
+      "boundary": "Does not refute photon/QED phenomenology or deny photon classifications as downstream empirical models. Project-wide certification requirement: any conventional c, wavelength, temperature, lux/radiometric quantity, refractive index, Snell relation, attenuation coefficient, or equivalent may be introduced only after the SEAM-native result is frozen, as downstream correspondence/Hamiltonian-ratio equivalence.",
+      "formal_result": "PASS \u2014 R154 formal structural closure. Excitation is an evaluation/perturbation of the already-resolved complete material structure; crystal orientation and material structure shape the response. The former direct G_exc conversion requirement is retired as misframed."
+    },
+    {
+      "id": "S-009",
+      "kind": "classification-scope",
+      "quantitative_validation": "Native field/Hamiltonian/force quantities are executed where recorded; conventional unit correspondence is separate.",
+      "boundary": "Ontology/taxonomy only; measured electromagnetic quantities remain valid projections.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "S-010",
+      "kind": "classification-scope",
+      "quantitative_validation": "Native field/Hamiltonian/force quantities are executed where recorded; conventional unit correspondence is separate.",
+      "boundary": "Magnetic-force ontology only, not denial of magnetic observables.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "S-011",
+      "kind": "classification-scope",
+      "quantitative_validation": "Scientific closure is at mechanism/classification scope; no universal efficiency gain is claimed.",
+      "boundary": "No separate electrochemical-force primitive; does not replace calibrated electrochemical projection equations. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-012",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "Z=1..128 native shell/state continuation is retained; NUBASE comparison is post-freeze.",
+      "boundary": "Atomic-construction/adjudication scope represented by the frozen Z=1..128 matrix and its NUBASE comparison.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "S-013",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "Z=1..128 native shell/state continuation is retained; NUBASE comparison is post-freeze.",
+      "boundary": "Atomic-construction/adjudication scope represented by the frozen Z=1..128 matrix and its NUBASE comparison.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "S-014",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "Z=1..128 native shell/state continuation is retained; NUBASE comparison is post-freeze.",
+      "boundary": "Atomic-construction/adjudication scope represented by the frozen Z=1..128 matrix and its NUBASE comparison.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "S-015",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "Z=1..128 native shell/state continuation is retained; NUBASE comparison is post-freeze.",
+      "boundary": "Atomic-construction/adjudication scope represented by the frozen Z=1..128 matrix and its NUBASE comparison.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "S-016",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "Z=1..128 native shell/state continuation is retained; NUBASE comparison is post-freeze.",
+      "boundary": "Atomic-construction/adjudication scope represented by the frozen Z=1..128 matrix and its NUBASE comparison.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "S-017",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "Z=1..128 native shell/state continuation is retained; NUBASE comparison is post-freeze.",
+      "boundary": "Atomic-construction/adjudication scope represented by the frozen Z=1..128 matrix and its NUBASE comparison.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "S-018",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "3,916 successive stripping/reclosure steps return to the original structural state with maximum componentwise residual 0.0 where documented.",
+      "boundary": "Ion/neutral structural-architecture relation; does not assert a numerical ionization-energy projection.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "S-019",
+      "kind": "architecture-level",
+      "quantitative_validation": "Constructive same-composition/different-relation counterexample; numeric accuracy is not applicable.",
+      "boundary": "Does not predict isomer energies, reaction pathways, or complete stereochemical enumeration.",
+      "formal_result": "PASS. Two C2H6O states retained identical atomic composition but had distinct heavy-atom relational graphs."
+    },
+    {
+      "id": "S-020",
+      "kind": "classification-scope",
+      "quantitative_validation": "R156 terminal PASS_S020_S021_NUCLEAR_ONTOLOGY_MECHANISM_CLOSURE; lifetime/branching prediction is not claimed as native closure.",
+      "boundary": "Does not predict absolute half-life, branching probability, arbitrary daughter identity, reaction cross-section, reaction Q-value, or reconstruct the missing historical forward EPN S(X) kernel.",
+      "formal_result": "PASS \u2014 the generic SEAM complete-state transition/release architecture already represents retain/shift/release under the same entropy selector without any separate decay constant or stochastic-loss law. R143\u2013R149 show the nuclear examples can be represented as complete atomic events with electron response and downstream daughter projection."
+    },
+    {
+      "id": "S-021",
+      "kind": "classification-scope",
+      "quantitative_validation": "R156 terminal PASS_S020_S021_NUCLEAR_ONTOLOGY_MECHANISM_CLOSURE; lifetime/branching prediction is not claimed as native closure.",
+      "boundary": "Does not claim every nuclear observable has already been numerically derived from first principles; closes only the registered interaction-ontology proposition.",
+      "formal_result": "PASS \u2014 the Z=1..128 full-state continuation carries admissible atomic states through the same Hamiltonian/interaction chain and explicitly reports `New force law introduced: NO`; R28 independently closes the common resolved-state pair relation without a new physical term."
+    },
+    {
+      "id": "S-022",
+      "kind": "classification-scope",
+      "quantitative_validation": "Complete-state molecular/pair closures are retained; only evidence records with explicit numerical bond comparisons may claim numeric accuracy.",
+      "boundary": "Existence/ontology of bonding as retained structural relation; no universal bond-length or bond-energy magnitude claim.",
+      "formal_result": "PASS \u2014 R138 EVIDENCE-BOUND CLOSURE"
+    },
+    {
+      "id": "S-023",
+      "kind": "architecture-level",
+      "quantitative_validation": "Complete-state molecular/pair closures are retained; only evidence records with explicit numerical bond comparisons may claim numeric accuracy.",
+      "boundary": "Selector continuity across demonstrated retained-state levels; arbitrary N-node numerical quadrature remains a separate implementation issue. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-024",
+      "kind": "architecture-level",
+      "quantitative_validation": "Closure is organizational/causal architecture; no sequence-to-native-fold geometry accuracy is claimed.",
+      "boundary": "Does not claim SEAM presently predicts a protein's folded geometry, folding rate, chaperone dependence, or sequence-to-structure result. Fork B's H2O finite-geometry failure remains intact. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-025",
+      "kind": "classification-scope",
+      "quantitative_validation": "Claim-specific biological/population comparators are retained in their locked records; no independent selector is introduced.",
+      "boundary": "Does not establish universal biology, exact lifespan, cell division, blueprint-conditioned heredity, RNA/DNA identity, or that the native shed events are specifically autophagy. Those remain separate rows/applications. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-026",
+      "kind": "classification-scope",
+      "quantitative_validation": "Claim-specific biological/population comparators are retained in their locked records; no independent selector is introduced.",
+      "boundary": "R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-027",
+      "kind": "classification-scope",
+      "quantitative_validation": "Claim-specific biological/population comparators are retained in their locked records; no independent selector is introduced.",
+      "boundary": "R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-028",
+      "kind": "classification-scope",
+      "quantitative_validation": "Claim-specific biological/population comparators are retained in their locked records; no independent selector is introduced.",
+      "boundary": "R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-029",
+      "kind": "classification-scope",
+      "quantitative_validation": "Claim-specific biological/population comparators are retained in their locked records; no independent selector is introduced.",
+      "boundary": "R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-030",
+      "kind": "classification-scope",
+      "quantitative_validation": "Claim-specific biological/population comparators are retained in their locked records; no independent selector is introduced.",
+      "boundary": "",
+      "formal_result": "SEAM proposition is explicitly stated in the cited documentary authority."
+    },
+    {
+      "id": "S-031",
+      "kind": "classification-scope",
+      "quantitative_validation": "Closure is structural/facet ontology; conventional thermal values are comparator coordinates, not native generators.",
+      "boundary": "R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-032",
+      "kind": "classification-scope",
+      "quantitative_validation": "Closure is structural/facet ontology; conventional thermal values are comparator coordinates, not native generators.",
+      "boundary": "R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-033",
+      "kind": "classification-scope",
+      "quantitative_validation": "Closure is structural/facet ontology; conventional thermal values are comparator coordinates, not native generators.",
+      "boundary": "R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-034",
+      "kind": "classification-scope",
+      "quantitative_validation": "Closure is structural/facet ontology; conventional thermal values are comparator coordinates, not native generators.",
+      "boundary": "R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-035",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "Locked recurrence/transfer controls close mechanism scope; no universal acoustic material model is claimed.",
+      "boundary": "",
+      "formal_result": "SEAM proposition is explicitly stated in the cited documentary authority."
+    },
+    {
+      "id": "S-036",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "Locked recurrence/transfer controls close mechanism scope; no universal acoustic material model is claimed.",
+      "boundary": "",
+      "formal_result": "SEAM proposition is explicitly stated in the cited documentary authority."
+    },
+    {
+      "id": "S-037",
+      "kind": "architecture-level",
+      "quantitative_validation": "Mechanism closure; equation-specific accuracy is supplied only by independent comparators where recorded.",
+      "boundary": "",
+      "formal_result": "SEAM proposition is explicitly stated in the cited documentary authority."
+    },
+    {
+      "id": "S-038",
+      "kind": "architecture-level",
+      "quantitative_validation": "Structural redistribution lock; no universal diffusion coefficient is claimed.",
+      "boundary": "",
+      "formal_result": "SEAM proposition is explicitly stated in the cited documentary authority."
+    },
+    {
+      "id": "S-039",
+      "kind": "architecture-level",
+      "quantitative_validation": "Constitutive-projection closure; no universal coefficient prediction is asserted.",
+      "boundary": "",
+      "formal_result": "SEAM proposition is explicitly stated in the cited documentary authority."
+    },
+    {
+      "id": "S-040",
+      "kind": "architecture-level",
+      "quantitative_validation": "Counted-transition/accounting closure; empirical rate constants remain downstream.",
+      "boundary": "",
+      "formal_result": "SEAM proposition is explicitly stated in the cited documentary authority."
+    },
+    {
+      "id": "S-041",
+      "kind": "architecture-level",
+      "quantitative_validation": "R133/R134 record distinct orientation/material response landscapes; R153 terminal PASS_EXCITATION_PROPAGATION_SHAPING_BY_EXISTING_STRUCTURE. Conventional optical numeric correspondence remains downstream.",
+      "boundary": "The result does not adjudicate Fermat, Snell, refractive-index or full-spectrum optical predictions.",
+      "formal_result": "The B01 single-coordinate transfer formalism executes through source, thylakoid receiver and chlorophyll without an optical-path primitive."
+    },
+    {
+      "id": "S-042",
+      "kind": "architecture-level",
+      "quantitative_validation": "Native field/Hamiltonian/force quantities are executed where recorded; conventional unit correspondence is separate.",
+      "boundary": "",
+      "formal_result": "SEAM proposition is explicitly stated in the cited documentary authority."
+    },
+    {
+      "id": "S-043",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "Exact count relation by definition of the retained Cs metrology contract.",
+      "boundary": "Closure covers the exact count-to-time mapping and its implementation. It does not establish the broader ontological claim that time is non-fundamental or validate a physical clock apparatus.",
+      "formal_result": "T_exact reproduced as 1/1 for n_Cs=9,192,631,770; f_exact reproduced as 0/1 for control and 500,000,000,000,000/1 for the excited event."
+    },
+    {
+      "id": "S-044",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "Structural-separation lock; SI length correspondence is downstream.",
+      "boundary": "This confirms interface plumbing for N_D. It does not calibrate N_D to dimensional distance or scientifically close spatial ontology.",
+      "formal_result": "The locked interface passes N_D=6.2 directly as the R4 native separation argument N_r."
+    },
+    {
+      "id": "S-045",
+      "kind": "classification-scope",
+      "quantitative_validation": "Logical/structural overlap controls; numeric accuracy not applicable.",
+      "boundary": "Formal unification of representations does not establish empirical closure in each discipline.",
+      "formal_result": "R35 makes structure\u2192perturbation\u2192structure the global execution invariant; B01 instantiates optical, thermal, molecular and biological representations in one complete chain."
+    },
+    {
+      "id": "S-046",
+      "kind": "architecture-level",
+      "quantitative_validation": "Native field/Hamiltonian/force quantities are executed where recorded; conventional unit correspondence is separate.",
+      "boundary": "",
+      "formal_result": "SEAM proposition is explicitly stated in the cited documentary authority."
+    },
+    {
+      "id": "S-047",
+      "kind": "classification-scope",
+      "quantitative_validation": "Classification closure; no claim that every astronomical residual is numerically resolved by SEAM.",
+      "boundary": "R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-048",
+      "kind": "classification-scope",
+      "quantitative_validation": "Classification/ontology closure; no alternative cosmological parameter fit is claimed.",
+      "boundary": "R99 sequential closure audit explicitly lists this claim CLOSED. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-049",
+      "kind": "classification-scope",
+      "quantitative_validation": "Ontology/inference closure; no scalar vacuum-energy prediction is claimed.",
+      "boundary": "R99 sequential closure audit explicitly lists this claim CLOSED. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-050",
+      "kind": "classification-scope",
+      "quantitative_validation": "Formal/ontology closure; conventional formalism accuracy is retained, not denied.",
+      "boundary": "R99 sequential closure audit explicitly lists this claim CLOSED. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-051",
+      "kind": "classification-scope",
+      "quantitative_validation": "Formal/ontology closure; conventional formalism accuracy is retained, not denied.",
+      "boundary": "R99 sequential closure audit explicitly lists this claim CLOSED. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-052",
+      "kind": "classification-scope",
+      "quantitative_validation": "Formal/ontology closure; conventional formalism accuracy is retained, not denied.",
+      "boundary": "R99 sequential closure audit explicitly lists this claim CLOSED. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-053",
+      "kind": "classification-scope",
+      "quantitative_validation": "Classification closure; underlying experimental observations remain valid and are not erased.",
+      "boundary": "R99 sequential closure audit explicitly lists this claim CLOSED. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-054",
+      "kind": "classification-scope",
+      "quantitative_validation": "Classification closure; underlying experimental observations remain valid and are not erased.",
+      "boundary": "R99 sequential closure audit explicitly lists this claim CLOSED. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-055",
+      "kind": "classification-scope",
+      "quantitative_validation": "Classification closure; underlying experimental observations remain valid and are not erased.",
+      "boundary": "R99 sequential closure audit explicitly lists this claim CLOSED. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-056",
+      "kind": "classification-scope",
+      "quantitative_validation": "Classification closure; underlying experimental observations remain valid and are not erased.",
+      "boundary": "R99 sequential closure audit explicitly lists this claim CLOSED. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-057",
+      "kind": "classification-scope",
+      "quantitative_validation": "Classification closure; underlying experimental observations remain valid and are not erased.",
+      "boundary": "R99 sequential closure audit explicitly lists this claim CLOSED. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-058",
+      "kind": "classification-scope",
+      "quantitative_validation": "Classification closure; underlying experimental observations remain valid and are not erased.",
+      "boundary": "R99 sequential closure audit explicitly lists this claim CLOSED. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-059",
+      "kind": "classification-scope",
+      "quantitative_validation": "Classification closure; underlying experimental observations remain valid and are not erased.",
+      "boundary": "R99 sequential closure audit explicitly lists this claim CLOSED. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-060",
+      "kind": "classification-scope",
+      "quantitative_validation": "Causal/representation closure; no new cosmological numerical fit is asserted.",
+      "boundary": "R99 sequential closure audit explicitly lists this claim CLOSED. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-061",
+      "kind": "architecture-level",
+      "quantitative_validation": "R158 terminal PASS_S061_O042_C059_GEOLOGY_SCOPE_CLOSURE; blind plate-velocity prediction is outside this claim scope.",
+      "boundary": "Does not claim blind quantitative prediction of plate velocity, mantle flow, or all conventional geodynamic observables.",
+      "formal_result": "PASS \u2014 plate motion is natively representable as an ordered persistent structural relation/trajectory without requiring conventional thermal/rheological/gravity variables as primitive inputs. USGS independently reports that plate-driving mechanisms are not uniquely or completely resolved."
+    },
+    {
+      "id": "S-062",
+      "kind": "classification-scope",
+      "quantitative_validation": "Projection/causal closure; no universal ocean-atmosphere forecast accuracy is asserted.",
+      "boundary": "",
+      "formal_result": "SEAM proposition is explicitly stated in the cited documentary authority."
+    },
+    {
+      "id": "S-063",
+      "kind": "architecture-level",
+      "quantitative_validation": "Accounting/causal closure; no specific climate forecast is asserted.",
+      "boundary": "",
+      "formal_result": "SEAM proposition is explicitly stated in the cited documentary authority."
+    },
+    {
+      "id": "S-064",
+      "kind": "classification-scope",
+      "quantitative_validation": "Structural persistence/inference closure; no consciousness metric is claimed.",
+      "boundary": "",
+      "formal_result": "PASS \u2014 R159 ALL-210 FIXED EVIDENCE-BINDING REPLAY; existing claim-specific locked/scientific evidence remains authoritative."
+    },
+    {
+      "id": "S-065",
+      "kind": "classification-scope",
+      "quantitative_validation": "Structural persistence/inference closure; no consciousness metric is claimed.",
+      "boundary": "",
+      "formal_result": "SEAM proposition is explicitly stated in the cited documentary authority."
+    },
+    {
+      "id": "S-066",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "Empirical structured-residual closure; no claim that every residual is meaningful.",
+      "boundary": "",
+      "formal_result": "PASS \u2014 R159 ALL-210 FIXED EVIDENCE-BINDING REPLAY; existing claim-specific locked/scientific evidence remains authoritative."
+    },
+    {
+      "id": "S-067",
+      "kind": "classification-scope",
+      "quantitative_validation": "Scientific closure is at mechanism/classification scope; no universal efficiency gain is claimed.",
+      "boundary": "R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-068",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "Locked accelerometer/sensor evidence demonstrates structured residual behavior within the recorded test scope.",
+      "boundary": "",
+      "formal_result": "PASS \u2014 R159 ALL-210 FIXED EVIDENCE-BINDING REPLAY; existing claim-specific locked/scientific evidence remains authoritative."
+    },
+    {
+      "id": "S-069",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "R24 derives H_ext=-Q_AB/N_R and F_ext=-Q_AB/N_R^2 and returns zero residual on the Binet/conic substitution. No empirical percent accuracy is asserted by that residual.",
+      "boundary": "This is a cleanroom execution record; independent astronomical validation and reproduction are not recorded in the file. R161 boundary: this update corrects the native structural description and input order; it does not replace the underlying locked run or scientific evidence. Conventional correspondence remains post-freeze.",
+      "formal_result": "PASS \u2014 R161 STRUCTURE DESCRIPTION REFORMULATED TO KNOWN SEAM-NATIVE CONDITIONS; underlying claim-specific evidence and scientific closure are unchanged."
+    },
+    {
+      "id": "S-070",
+      "kind": "quantitative-with-comparator",
+      "quantitative_validation": "Locked raw-tile/high-point result retained; semantic terrain identity is downstream.",
+      "boundary": "Closure binds prior executed raw-tile result; current archive does not claim a fresh raw-tile rerun.",
+      "formal_result": "PASS \u2014 R159 ALL-210 FIXED EVIDENCE-BINDING REPLAY; existing claim-specific locked/scientific evidence remains authoritative."
+    }
+  ]
+}
