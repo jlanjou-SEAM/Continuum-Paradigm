@@ -1,0 +1,51 @@
+name: Notify IndexNow
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "*.md"
+      - "index.html"
+      - "robots.txt"
+      - "sitemap.xml"
+      - "454232a5765c486ba9a8e97c48dee33a.txt"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait for the published verification key
+        env:
+          INDEXNOW_KEY: 454232a5765c486ba9a8e97c48dee33a
+          KEY_URL: https://jlanjou-seam.github.io/Continuum-Paradigm/454232a5765c486ba9a8e97c48dee33a.txt
+        run: |
+          for attempt in {1..24}; do
+            published_key="$(curl --fail --silent --show-error "$KEY_URL" 2>/dev/null || true)"
+            if [ "$published_key" = "$INDEXNOW_KEY" ]; then
+              exit 0
+            fi
+            sleep 10
+          done
+          echo "The published IndexNow key was not available in time." >&2
+          exit 1
+
+      - name: Submit the public entry points
+        env:
+          INDEXNOW_KEY: 454232a5765c486ba9a8e97c48dee33a
+          KEY_URL: https://jlanjou-seam.github.io/Continuum-Paradigm/454232a5765c486ba9a8e97c48dee33a.txt
+        run: |
+          status="$(curl --silent --show-error --output response.txt --write-out '%{http_code}' \
+            --request POST 'https://api.indexnow.org/indexnow' \
+            --header 'Content-Type: application/json; charset=utf-8' \
+            --data "{\"host\":\"jlanjou-seam.github.io\",\"key\":\"$INDEXNOW_KEY\",\"keyLocation\":\"$KEY_URL\",\"urlList\":[\"https://jlanjou-seam.github.io/Continuum-Paradigm/\",\"https://jlanjou-seam.github.io/Continuum-Paradigm/02_CONTINUUM_TECHNICAL_FOUNDATIONS.md\",\"https://jlanjou-seam.github.io/Continuum-Paradigm/CURRENT_STANDING.md\",\"https://jlanjou-seam.github.io/Continuum-Paradigm/06_CONTINUUM_CRITICAL_READER_GUIDE.md\"]}")"
+          cat response.txt
+          if [ "$status" != "200" ] && [ "$status" != "202" ]; then
+            echo "IndexNow returned HTTP $status." >&2
+            exit 1
+          fi
+          echo "IndexNow accepted the submission with HTTP $status."
