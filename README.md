@@ -17,7 +17,7 @@ At the atomic foundation of the framework, electron occupancy is treated as cons
 The same complete-state selection rule is retained as the subject changes:
 
 $$
-C^* = \underset{C \in \mathcal{A}}{\operatorname{arg\,max}}\; S[C]
+C^* = \underset{C \in \mathcal{A}}{\arg\max}\; S[C]
 $$
 
 Among the admissible complete structures, the realized state is the one that maximizes complete structural entropy under the conditions present. The compact expression states the rule; an executed Paradigm result must retain and evaluate the complete state.
