@@ -82,6 +82,7 @@ See the [current standing](./CURRENT_STANDING.md), [closure and standing matrix]
 7. [Phase-by-phase execution guide](./07_CONTINUUM_PHASE_BY_PHASE_EXECUTION_GUIDE.md) - practical execution sequence.
 8. [Current standing](./CURRENT_STANDING.md) - current canonical status.
 9. [Problem-solving correspondence](./PROBLEM_SOLVING_CORRESPONDENCE.md) - direct, scope-controlled answers to common foundational and cross-scale questions.
+10. [Architectural review and contribution guide](./CONTRIBUTING.md) - required authority, execution, evidence, and review discipline for proposed changes.
 
 For claim-level review, begin with the [scientific certification register](./SEAM_210_CLAIM_CERTIFICATION_REGISTER.md), the [project certification register](./SEAM_50_PROJECT_CLAIM_CERTIFICATION_REGISTER.md), and the [adversarial empirical evidence matrix](./ADVERSARIAL_EMPIRICAL_EVIDENCE_MATRIX.md).
 

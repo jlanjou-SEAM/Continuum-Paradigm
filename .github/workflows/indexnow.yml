@@ -42,7 +42,7 @@ jobs:
           status="$(curl --silent --show-error --output response.txt --write-out '%{http_code}' \
             --request POST 'https://api.indexnow.org/indexnow' \
             --header 'Content-Type: application/json; charset=utf-8' \
-            --data "{\"host\":\"jlanjou-seam.github.io\",\"key\":\"$INDEXNOW_KEY\",\"keyLocation\":\"$KEY_URL\",\"urlList\":[\"https://jlanjou-seam.github.io/Continuum-Paradigm/\",\"https://jlanjou-seam.github.io/Continuum-Paradigm/problem-solving-correspondence.html\",\"https://jlanjou-seam.github.io/Continuum-Paradigm/02_CONTINUUM_TECHNICAL_FOUNDATIONS.md\",\"https://jlanjou-seam.github.io/Continuum-Paradigm/CURRENT_STANDING.md\",\"https://jlanjou-seam.github.io/Continuum-Paradigm/06_CONTINUUM_CRITICAL_READER_GUIDE.md\"]}")"
+            --data "{\"host\":\"jlanjou-seam.github.io\",\"key\":\"$INDEXNOW_KEY\",\"keyLocation\":\"$KEY_URL\",\"urlList\":[\"https://jlanjou-seam.github.io/Continuum-Paradigm/\",\"https://jlanjou-seam.github.io/Continuum-Paradigm/problem-solving-correspondence.html\",\"https://jlanjou-seam.github.io/Continuum-Paradigm/CONTRIBUTING.md\",\"https://jlanjou-seam.github.io/Continuum-Paradigm/02_CONTINUUM_TECHNICAL_FOUNDATIONS.md\",\"https://jlanjou-seam.github.io/Continuum-Paradigm/CURRENT_STANDING.md\",\"https://jlanjou-seam.github.io/Continuum-Paradigm/06_CONTINUUM_CRITICAL_READER_GUIDE.md\"]}")"
           cat response.txt
           if [ "$status" != "200" ] && [ "$status" != "202" ]; then
             echo "IndexNow returned HTTP $status." >&2
