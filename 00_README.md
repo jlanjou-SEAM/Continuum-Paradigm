@@ -1,10 +1,12 @@
 # Continuum Paradigm
 
-**Canonical revision: R236**
+**Canonical revision: R242**
 
 This is the current canonical SEAM distribution.
 
-**Canonical download filename:** `Continuum_Paradigm.zip`
+**Canonical download filename:** `Continuum_Paradigm_Streamlined_R242.zip`
+
+For the public repository overview, scope summary, and reading path, see `README.md`.
 
 ## Current authority order
 
