@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Continuum Paradigm</title>
+  <meta name="description" content="The Continuum Paradigm is a complete-state structural framework investigating how one continuous reality produces observable structure across physical, biological, informational, and measurement domains.">
+  <meta name="keywords" content="Continuum Paradigm, SEAM framework, complete-state modeling, structural entropy, theoretical physics, systems science, atomic structure, nuclear structure, materials science, thermodynamics, electromagnetism, measurement science, falsification, reproducible research">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://jlanjou-seam.github.io/Continuum-Paradigm/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="The Continuum Paradigm">
+  <meta property="og:description" content="A complete-state structural framework for examining how one continuous reality produces many observable forms.">
+  <meta property="og:url" content="https://jlanjou-seam.github.io/Continuum-Paradigm/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="The Continuum Paradigm">
+  <meta name="twitter:description" content="A complete-state structural framework for examining how one continuous reality produces many observable forms.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "The Continuum Paradigm",
+    "description": "A complete-state structural framework investigating how one continuous reality produces observable structure across physical, biological, informational, and measurement domains.",
+    "url": "https://jlanjou-seam.github.io/Continuum-Paradigm/",
+    "codeRepository": "https://github.com/jlanjou-SEAM/Continuum-Paradigm",
+    "license": "https://opensource.org/licenses/MIT",
+    "keywords": [
+      "complete-state modeling",
+      "structural entropy",
+      "theoretical physics",
+      "systems science",
+      "falsification",
+      "reproducible research"
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17212b;
+      --muted: #536273;
+      --line: #d8e0e8;
+      --paper: #ffffff;
+      --wash: #f3f7fa;
+      --navy: #183d5d;
+      --blue: #2269a5;
+      --green: #176b50;
+      --max: 1120px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font: 17px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    a { color: var(--blue); }
+    a:hover { text-decoration-thickness: 2px; }
+    .skip {
+      position: absolute;
+      left: -9999px;
+      top: 0;
+      z-index: 10;
+      padding: .7rem 1rem;
+      background: #fff;
+      color: var(--ink);
+    }
+    .skip:focus { left: 1rem; top: 1rem; }
+    header {
+      color: #fff;
+      background: linear-gradient(130deg, #102f48 0%, #1d5279 62%, #1b695e 100%);
+    }
+    nav, .hero, main, footer > div {
+      width: min(calc(100% - 2.5rem), var(--max));
+      margin-inline: auto;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding-block: 1.1rem;
+    }
+    .brand { color: #fff; font-weight: 750; text-decoration: none; letter-spacing: .01em; }
+    nav ul { display: flex; flex-wrap: wrap; gap: 1.2rem; margin: 0; padding: 0; list-style: none; }
+    nav li a { color: #e8f4fb; text-decoration: none; font-size: .94rem; }
+    .hero { padding: 5.4rem 0 5.8rem; }
+    .eyebrow { margin: 0 0 .8rem; font-size: .83rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; color: #9fe4d5; }
+    h1 { max-width: 900px; margin: 0; font-size: clamp(2.7rem, 7vw, 5.8rem); line-height: .98; letter-spacing: -.045em; }
+    .lede { max-width: 800px; margin: 1.6rem 0 0; font-size: clamp(1.15rem, 2vw, 1.45rem); color: #e2edf4; }
+    .actions { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 2rem; }
+    .button { display: inline-block; padding: .78rem 1.05rem; border: 1px solid #fff; border-radius: .4rem; color: #102f48; background: #fff; font-weight: 750; text-decoration: none; }
+    .button.secondary { color: #fff; background: transparent; }
+    main { padding-block: 4.5rem; }
+    section { padding-block: 2.4rem; }
+    h2 { margin: 0 0 1.1rem; color: var(--navy); font-size: clamp(1.8rem, 3vw, 2.6rem); line-height: 1.15; letter-spacing: -.025em; }
+    h3 { margin-top: 0; color: var(--navy); line-height: 1.25; }
+    .intro { max-width: 900px; font-size: 1.12rem; }
+    .question { max-width: 940px; margin: 1.8rem 0 0; padding-left: 1.2rem; border-left: 4px solid var(--green); color: #314455; font-size: 1.25rem; }
+    .formula {
+      margin: 1.7rem 0;
+      padding: 1.7rem;
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: .6rem;
+      background: var(--wash);
+      text-align: center;
+      font-family: Cambria, "Times New Roman", serif;
+      font-size: clamp(1.8rem, 5vw, 3.2rem);
+    }
+    math { margin-inline: auto; }
+    .metrics, .cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+    .metric, .card { padding: 1.4rem; border: 1px solid var(--line); border-radius: .55rem; background: #fff; }
+    .metric strong { display: block; color: var(--navy); font-size: 2.3rem; line-height: 1; }
+    .metric span { display: block; margin-top: .5rem; color: var(--muted); }
+    .card p { color: var(--muted); }
+    .card a { font-weight: 750; }
+    .scope { max-width: 900px; padding: 1.3rem 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+    footer { margin-top: 3rem; padding-block: 2.5rem; color: #dce9f2; background: #102f48; }
+    footer a { color: #fff; }
+    @media (max-width: 760px) {
+      nav { align-items: flex-start; flex-direction: column; }
+      .hero { padding-block: 3.7rem 4.2rem; }
+      .metrics, .cards { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+  <header>
+    <nav aria-label="Primary navigation">
+      <a class="brand" href="./">The Continuum Paradigm</a>
+      <ul>
+        <li><a href="#framework">Framework</a></li>
+        <li><a href="#standing">Standing</a></li>
+        <li><a href="#documents">Documents</a></li>
+        <li><a href="https://github.com/jlanjou-SEAM/Continuum-Paradigm">GitHub</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <p class="eyebrow">Canonical revision R242</p>
+      <h1>The Continuum Paradigm</h1>
+      <p class="lede">A complete-state structural framework for examining how one continuous reality produces many observable forms.</p>
+      <div class="actions">
+        <a class="button" href="#framework">Explore the framework</a>
+        <a class="button secondary" href="Continuum_Paradigm_Streamlined_R242.zip">Download R242</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="framework">
+      <h2>One paradigm across the Continuum</h2>
+      <p class="intro">The Continuum Paradigm proposes that familiar divisions such as particle, atom, molecule, material, organism, planet, field, force, heat, chemistry, and biology are useful descriptions of observation, but not fundamental divisions of reality. They are treated as structures, scales, and projections within one underlying Continuum.</p>
+      <p class="question">What if the divisions between our fundamental laws arise not because nature operates by different principles, but because the first structural operation was placed in the wrong order?</p>
+    </section>
+
+    <section aria-labelledby="selection-rule">
+      <h2 id="selection-rule">Complete-state selection rule</h2>
+      <p>The same selection rule is retained as the subject changes:</p>
+      <div class="formula" role="img" aria-label="C star equals arg max over C in the admissible set A of S of C">
+        <math display="block" aria-hidden="true">
+          <msup><mi>C</mi><mo>*</mo></msup>
+          <mo>=</mo>
+          <munder>
+            <mrow><mi mathvariant="normal">arg</mi><mo>&#x2062;</mo><mi mathvariant="normal">max</mi></mrow>
+            <mrow><mi>C</mi><mo>&#x2208;</mo><mi mathvariant="script">A</mi></mrow>
+          </munder>
+          <mi>S</mi><mo>[</mo><mi>C</mi><mo>]</mo>
+        </math>
+      </div>
+      <p class="intro">Among the admissible complete structures, the realized state is the one that maximizes complete structural entropy under the conditions present. An executed Paradigm result must retain and evaluate the complete state.</p>
+    </section>
+
+    <section id="standing">
+      <h2>Current standing</h2>
+      <div class="metrics" aria-label="Claim totals">
+        <div class="metric"><strong>210</strong><span>scientific claims</span></div>
+        <div class="metric"><strong>50</strong><span>project-level claims</span></div>
+        <div class="metric"><strong>260</strong><span>registered claims closed at certified scope</span></div>
+      </div>
+      <p class="scope"><strong>Scope matters.</strong> Closure means adjudicated at each claim's exact certified scope. It does not mean 210 independent numerical predictions or comparator wins, and it does not claim that every question in every covered field has been solved.</p>
+    </section>
+
+    <section id="documents">
+      <h2>Read and examine the release</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Foundations</h3>
+          <p>Begin with the first principles and mathematical construction.</p>
+          <a href="01_CONTINUUM_CANONICAL_CHARTER.md">Canonical charter</a><br>
+          <a href="02_CONTINUUM_TECHNICAL_FOUNDATIONS.md">Technical foundations</a>
+        </article>
+        <article class="card">
+          <h3>Execution and evidence</h3>
+          <p>Review the evaluator, validation protocol, and retained evidence architecture.</p>
+          <a href="03_CONTINUUM_ENGINE_AND_VALIDATION_PROTOCOL.md">Engine and validation</a><br>
+          <a href="05_CONTINUUM_EVIDENCE_AND_VERIFICATION_RECORD.md">Evidence record</a>
+        </article>
+        <article class="card">
+          <h3>Standing and criticism</h3>
+          <p>Inspect current dispositions, scope qualifications, and critical-reader guidance.</p>
+          <a href="CURRENT_STANDING.md">Current standing</a><br>
+          <a href="06_CONTINUUM_CRITICAL_READER_GUIDE.md">Critical reader guide</a>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Independent review</h2>
+      <p class="intro">The release is provided for independent examination, reproduction, application, criticism, and falsification. Failures, rejected reductions, empirical bindings, and scope boundaries remain part of the record.</p>
+      <p><a href="https://github.com/jlanjou-SEAM/Continuum-Paradigm">View the complete repository on GitHub</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <strong>The Continuum Paradigm</strong><br>
+      Canonical revision R242 · <a href="LICENSE">MIT License</a> · <a href="PACKAGE_SHA256SUMS.txt">Package hashes</a>
+    </div>
+  </footer>
+</body>
+</html>
