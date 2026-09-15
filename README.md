@@ -22,6 +22,22 @@ $$
 
 Among the admissible complete structures, the realized state is the one that maximizes complete structural entropy under the conditions present. The compact expression states the rule; an executed Paradigm result must retain and evaluate the complete state.
 
+## Completed interaction and normalization architecture
+
+The current canonical build does **not** classify the attraction Hamiltonian, pair-to-body continuation, orbital reduction, or entropy normalizations as proposed future work. Within the declared SEAM architecture, these components are specified, executed, and closed at their certified scope.
+
+The completed interaction chain is:
+
+> resolved pair state &rarr; selected-state Hamiltonian consequence &rarr; state-derived pair coefficient $K_{ab}$ &rarr; native attraction Hamiltonian $H_{\mathrm{attr}}$ &rarr; exterior inverse-square radial derivative &rarr; finite-body aggregation &rarr; Binet/conic orbital continuation
+
+$H_{\mathrm{attr}}$ is the declared native continuation of the resolved pair consequence. The framework does not permit a separate attraction constant, an inserted Newtonian $G$, a unit-amplitude surrogate, or a comparator-fitted amplitude in that chain. The current R28-to-R24 authority records the state-to-interaction and orbital continuation as closed; it is not an item reserved for a future version.
+
+The coefficients $\lambda_{\mathrm{field}}$ and $\lambda_{\mathrm{coupling}}$ are **run-bound operator normalizations**, not unfinished universal constants. Every execution freezes them in its named run contract. For example, the hydrogen reference contract fixes $\lambda_{\mathrm{field}}=1.0$ and $\lambda_{\mathrm{coupling}}=0.1$; outside a named contract, coefficient values are undefined by design rather than awaiting empirical completion.
+
+Here, **complete** means fully specified, executed, and adjudicated at the framework's declared and certified scope. Continued experiments, new applications, and additional comparator tests apply the completed architecture; they are not missing foundational construction.
+
+The authoritative construction and qualifications are retained in the [technical foundations](./02_CONTINUUM_TECHNICAL_FOUNDATIONS.md), [current standing](./CURRENT_STANDING.md), and [closure and standing matrix](./04_CONTINUUM_CLOSURE_AND_STANDING_MATRIX.md).
+
 ## What this release contains
 
 The repository presents the current canonical framework, mathematical construction, evaluator and validation protocol, standing records, evidence architecture, critical-reader guidance, and phase-by-phase execution guidance. It also retains explicit scope boundaries, rejected reductions, falsification records, and reproducibility materials.
