@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Release overview — Continuum Paradigm</title>
+  <meta name="description" content="The Continuum Paradigm: Release overview">
+  <style>
+    :root {
+      --ink: #17212b;
+      --muted: #536273;
+      --line: #d8e0e8;
+      --paper: #ffffff;
+      --wash: #f3f7fa;
+      --navy: #183d5d;
+      --blue: #2269a5;
+      --max: 900px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font: 17px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .header {
+      background: linear-gradient(130deg, #102f48 0%, #1d5279 62%, #1b695e 100%);
+      color: #fff;
+      padding: 2rem 0;
+      margin-bottom: 3rem;
+    }
+    .header-content {
+      width: min(calc(100% - 2.5rem), var(--max));
+      margin-inline: auto;
+    }
+    .header h1 {
+      margin: 0 0 0.5rem;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.1;
+    }
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.2rem;
+      margin-top: 1.5rem;
+      font-size: 0.95rem;
+    }
+    .nav-links a {
+      color: #e8f4fb;
+      padding: 0.6rem 1rem;
+      border: 1px solid #e8f4fb;
+      border-radius: 0.4rem;
+      display: inline-block;
+    }
+    .nav-links a:hover {
+      background: rgba(255,255,255,0.1);
+      text-decoration: none;
+    }
+    main {
+      width: min(calc(100% - 2.5rem), var(--max));
+      margin-inline: auto;
+      padding-bottom: 4rem;
+    }
+    h2 {
+      color: var(--navy);
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+      font-size: clamp(1.6rem, 3vw, 2.2rem);
+      line-height: 1.15;
+    }
+    h2:first-child {
+      margin-top: 0;
+    }
+    h3 {
+      color: var(--navy);
+      margin-top: 2rem;
+      font-size: 1.3rem;
+    }
+    code {
+      background: var(--wash);
+      padding: 0.2rem 0.5rem;
+      border-radius: 0.3rem;
+      font-family: monospace;
+      font-size: 0.9em;
+    }
+    pre {
+      background: #2c3e50;
+      color: #ecf0f1;
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+      overflow-x: auto;
+      font-size: 0.85rem;
+    }
+    blockquote {
+      border-left: 4px solid var(--blue);
+      padding-left: 1.5rem;
+      margin-left: 0;
+      color: var(--muted);
+      font-style: italic;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid var(--line);
+      padding: 0.8rem;
+      text-align: left;
+    }
+    th {
+      background: var(--wash);
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      margin-top: 4rem;
+    }
+    @media (max-width: 760px) {
+      .nav-links {
+        flex-direction: column;
+      }
+      .nav-links a {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+
+
+
+
+
+<style id="formula-styles">.math-display { margin: 1.4em 0; padding: 1em; text-align: center; overflow-x: auto; break-inside: avoid; background: #f3f7fa; color: #17212b; border: 1px solid #d8e0e8; border-radius: .4rem; }
+pre, pre code { background: #edf3f8; color: #17212b; }
+code { background: #edf3f8; color: #17212b; }
+blockquote { background: #f3f7fa; color: #17212b; padding: .7em 1.2em; }
+thead, th { background: #e4edf5; color: #17212b; }
+tbody, td { background: #ffffff; color: #17212b; }
+.card, .scope, .metric, .question { color: #17212b; }
+.math-image { display: inline-block; max-width: 100%; object-fit: contain; }
+.math-display .math-image { max-width: none; }
+td, th { overflow-wrap: anywhere; }
+table { display: block; max-width: 100%; overflow-x: auto; }
+main { overflow-wrap: anywhere; }
+code { overflow-wrap: anywhere; }
+@media print {
+  @page { size: A4; margin: 18mm 16mm 20mm; }
+  body { font: 10pt/1.48 Georgia, 'Times New Roman', serif; color: #17212b; }
+  .header { background: none; color: #183d5d; padding: 0; margin: 0 0 18pt; }
+  .header-content, main { width: 100%; max-width: none; padding: 0; }
+  .nav-links, footer { display: none; }
+  h1 { font-size: 23pt; } h2 { font-size: 17pt; } h3 { font-size: 13pt; }
+  h1, h2, h3, h4 { break-after: avoid; }
+  p { orphans: 3; widows: 3; }
+  pre { white-space: pre-wrap; overflow-wrap: anywhere; background: #f3f7fa; color: #17212b; }
+  table { display: table; table-layout: fixed; width: 100%; font-size: 8pt; border-collapse: collapse; overflow: visible; }
+  tr, .math-display { break-inside: avoid; }
+  th, td { border: 1px solid #d8e0e8; padding: 4pt; }
+  .math-display { overflow: visible; padding: 5pt 0; }
+  .math-display .math-image { max-width: 100%; }
+  a { color: inherit; text-decoration: none; }
+}
+</style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <h1>Release overview</h1>
+      <nav class="nav-links">
+        <a href="./">← Back to Continuum Paradigm</a>
+        <a href="pdfs/00_README.pdf" download>📥 Download PDF</a>
+        <a href="00_README.md" download>📄 Download Markdown</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+<h1>Continuum Paradigm</h1>
+<p><strong>Canonical revision: R242</strong></p>
+<p>This is the current canonical SEAM distribution.</p>
+<p><strong>Canonical download filename:</strong> <code>Continuum_Paradigm_Streamlined_R242.zip</code></p>
+<p>For the public repository overview, scope summary, and reading path, see <code>README.md</code>.</p>
+<h2>Current authority order</h2>
+<ol>
+<li>Canonical first principles — <code>01_CONTINUUM_CANONICAL_CHARTER.md</code></li>
+<li>Mathematical derivation — <code>02_CONTINUUM_TECHNICAL_FOUNDATIONS.md</code></li>
+<li>Execution and validation formality — <code>03_CONTINUUM_ENGINE_AND_VALIDATION_PROTOCOL.md</code></li>
+<li>Closure and standing — <code>04_CONTINUUM_CLOSURE_AND_STANDING_MATRIX.md</code></li>
+<li>Evidence/verification record — <code>05_CONTINUUM_EVIDENCE_AND_VERIFICATION_RECORD.md</code></li>
+<li>Critical-reader interpretation — <code>06_CONTINUUM_CRITICAL_READER_GUIDE.md</code></li>
+<li>Phase execution — <code>07_CONTINUUM_PHASE_BY_PHASE_EXECUTION_GUIDE.md</code></li>
+<li>Current status — <code>CURRENT_STANDING.md</code></li>
+</ol>
+<h2>Canonical standing</h2>
+<p><strong>SEAM is COMPLETE as the foundational causal framework and canonical evaluator architecture.</strong></p>
+<p>All active registered claims are adjudicated and closed at their declared scope. Each active claim is bound to a certification record, a byte-locked executable/example record where applicable, and scientific evidence or an explicit scientific comparator boundary. Scope qualification does not create an unclosed claim.</p>
+<h2>Reading rule</h2>
+<p>The active root documents, active claim certificates, and active evidence records form one current-state specification. Runtime terminal classes defined for future questions or bounded application inputs are workflow semantics; they are not unresolved canonical claims.</p>
+<p>Only files named in the current package manifest are active distribution objects.</p>
+
+</main>
+
+  <footer>
+    <p><strong>The Continuum Paradigm</strong> · Canonical revision R242 · <a href="./LICENSE">MIT License</a></p>
+  </footer>
+</body>
+</html>

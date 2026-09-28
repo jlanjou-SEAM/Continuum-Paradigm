@@ -1,0 +1,13 @@
+{
+	"private": true,
+	"scripts": {
+		"build:html": "node scripts/build-docs.cjs",
+		"build:pdf": "node scripts/render-pdfs.cjs",
+		"build": "node scripts/build-docs.cjs && node scripts/render-pdfs.cjs"
+	},
+	"devDependencies": {
+		"mathjax-full": "3.2.2",
+		"markdown-it": "14.1.0",
+		"playwright": "1.55.1"
+	}
+}

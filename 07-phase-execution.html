@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Phase Execution Guide — Continuum Paradigm</title>
+  <meta name="description" content="The Continuum Paradigm: Phase Execution Guide">
+  <style>
+    :root {
+      --ink: #17212b;
+      --muted: #536273;
+      --line: #d8e0e8;
+      --paper: #ffffff;
+      --wash: #f3f7fa;
+      --navy: #183d5d;
+      --blue: #2269a5;
+      --max: 900px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font: 17px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .header {
+      background: linear-gradient(130deg, #102f48 0%, #1d5279 62%, #1b695e 100%);
+      color: #fff;
+      padding: 2rem 0;
+      margin-bottom: 3rem;
+    }
+    .header-content {
+      width: min(calc(100% - 2.5rem), var(--max));
+      margin-inline: auto;
+    }
+    .header h1 {
+      margin: 0 0 0.5rem;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.1;
+    }
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.2rem;
+      margin-top: 1.5rem;
+      font-size: 0.95rem;
+    }
+    .nav-links a {
+      color: #e8f4fb;
+      padding: 0.6rem 1rem;
+      border: 1px solid #e8f4fb;
+      border-radius: 0.4rem;
+      display: inline-block;
+    }
+    .nav-links a:hover {
+      background: rgba(255,255,255,0.1);
+      text-decoration: none;
+    }
+    main {
+      width: min(calc(100% - 2.5rem), var(--max));
+      margin-inline: auto;
+      padding-bottom: 4rem;
+    }
+    h2 {
+      color: var(--navy);
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+      font-size: clamp(1.6rem, 3vw, 2.2rem);
+      line-height: 1.15;
+    }
+    h2:first-child {
+      margin-top: 0;
+    }
+    h3 {
+      color: var(--navy);
+      margin-top: 2rem;
+      font-size: 1.3rem;
+    }
+    code {
+      background: var(--wash);
+      padding: 0.2rem 0.5rem;
+      border-radius: 0.3rem;
+      font-family: monospace;
+      font-size: 0.9em;
+    }
+    pre {
+      background: #2c3e50;
+      color: #ecf0f1;
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+      overflow-x: auto;
+      font-size: 0.85rem;
+    }
+    blockquote {
+      border-left: 4px solid var(--blue);
+      padding-left: 1.5rem;
+      margin-left: 0;
+      color: var(--muted);
+      font-style: italic;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid var(--line);
+      padding: 0.8rem;
+      text-align: left;
+    }
+    th {
+      background: var(--wash);
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      margin-top: 4rem;
+    }
+    @media (max-width: 760px) {
+      .nav-links {
+        flex-direction: column;
+      }
+      .nav-links a {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+
+
+
+
+
+<style id="formula-styles">.math-display { margin: 1.4em 0; padding: 1em; text-align: center; overflow-x: auto; break-inside: avoid; background: #f3f7fa; color: #17212b; border: 1px solid #d8e0e8; border-radius: .4rem; }
+pre, pre code { background: #edf3f8; color: #17212b; }
+code { background: #edf3f8; color: #17212b; }
+blockquote { background: #f3f7fa; color: #17212b; padding: .7em 1.2em; }
+thead, th { background: #e4edf5; color: #17212b; }
+tbody, td { background: #ffffff; color: #17212b; }
+.card, .scope, .metric, .question { color: #17212b; }
+.math-image { display: inline-block; max-width: 100%; object-fit: contain; }
+.math-display .math-image { max-width: none; }
+td, th { overflow-wrap: anywhere; }
+table { display: block; max-width: 100%; overflow-x: auto; }
+main { overflow-wrap: anywhere; }
+code { overflow-wrap: anywhere; }
+@media print {
+  @page { size: A4; margin: 18mm 16mm 20mm; }
+  body { font: 10pt/1.48 Georgia, 'Times New Roman', serif; color: #17212b; }
+  .header { background: none; color: #183d5d; padding: 0; margin: 0 0 18pt; }
+  .header-content, main { width: 100%; max-width: none; padding: 0; }
+  .nav-links, footer { display: none; }
+  h1 { font-size: 23pt; } h2 { font-size: 17pt; } h3 { font-size: 13pt; }
+  h1, h2, h3, h4 { break-after: avoid; }
+  p { orphans: 3; widows: 3; }
+  pre { white-space: pre-wrap; overflow-wrap: anywhere; background: #f3f7fa; color: #17212b; }
+  table { display: table; table-layout: fixed; width: 100%; font-size: 8pt; border-collapse: collapse; overflow: visible; }
+  tr, .math-display { break-inside: avoid; }
+  th, td { border: 1px solid #d8e0e8; padding: 4pt; }
+  .math-display { overflow: visible; padding: 5pt 0; }
+  .math-display .math-image { max-width: 100%; }
+  a { color: inherit; text-decoration: none; }
+}
+</style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <h1>Phase Execution Guide</h1>
+      <nav class="nav-links">
+        <a href="./">← Back to Continuum Paradigm</a>
+        <a href="pdfs/07_CONTINUUM_PHASE_BY_PHASE_EXECUTION_GUIDE.pdf" download>📥 Download PDF</a>
+        <a href="07_CONTINUUM_PHASE_BY_PHASE_EXECUTION_GUIDE.md" download>📄 Download Markdown</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+<h1>Continuum Paradigm — Phase-by-Phase Execution Guide</h1>
+<blockquote>
+<p><strong>CURRENT-BUILD AUTHORITY:</strong> All active registered claims are adjudicated and closed at their declared scope. Terminal classes described in this document are execution semantics for posed inputs and do not denote unfinished canonical project work.</p>
+</blockquote>
+<h2>Canonical closure interpretation — upstream resolution required</h2>
+<p>A registered claim is certified closed when the record states <strong>what SEAM resolves upstream that produces the observation or makes the conventional description downstream</strong>. The required order is:</p>
+<p><code>native complete structure → native relation/field/selector consequence → frozen result → conventional representation/comparator</code></p>
+<p>For each registered claim the authoritative row-level linkage is <code>SEAM_210_CLAIM_CERTIFICATION_REGISTER.md</code> and the claim-specific record under <code>Evidence/Claim_Certification/</code>. Those records name the upstream mechanism, sealed execution/result, quantitative standing where applicable, scientific comparator, and exact boundary.</p>
+<blockquote>
+<p><strong>No-reduction rule (see <code>00_README.md</code>).</strong> Structure in this archive is retained faceted and is never collapsed to a scalar. A faceted or symbolic form is a complete description of a <em>resolved</em> structure, not a deferred value. It does not license reading an unevaluated row as resolved: see the three-state status vocabulary (<code>RESOLVED</code> / <code>EXCLUDED</code> / <code>NOT_EVALUABLE</code>) in <code>00_README.md</code>.</p>
+</blockquote>
+<p><strong>Runner:</strong> <code>Evidence/Runtime/locked_runner.py</code>
+<strong>Contract ID:</strong> <code>LOCKED_RUNNER_R30_REFERENCE_CHECK_01</code>
+<strong>Purpose:</strong> one entry point that executes every declared phase in canonical order, verifies each against its sealed value where one exists, and reports a terminal per branch.</p>
+<hr>
+<h2>Canonical architecture and execution scope</h2>
+<p>The Continuum Paradigm uses one integrated architecture with distinct responsibilities:</p>
+<div class="math-display"><img class="math-image" src="assets/formulas/59874773818936e8d4ab.svg" alt="\boxed{
+\text{ESIH}
+=
+\text{definition of permissible structure and possible existence}
+}" width="514" height="26" style="width:64.25ex;height:auto;vertical-align:-1.043ex" decoding="sync"></div>
+<div class="math-display"><img class="math-image" src="assets/formulas/1a79c559a265f506369c.svg" alt="\boxed{
+\text{AEPS}
+=
+\text{definition of how energy interacts with and distributes across structure}
+}" width="411" height="52" style="width:51.334ex;height:auto;vertical-align:-2.64ex" decoding="sync"></div>
+<div class="math-display"><img class="math-image" src="assets/formulas/340d31a79347388e5da3.svg" alt="\boxed{
+\text{SEAM}
+=
+\text{mathematical representation and execution of structure, relation, interaction, and state change}
+}" width="459" height="52" style="width:57.296ex;height:auto;vertical-align:-2.64ex" decoding="sync"></div>
+<p>ESAM is the mathematical-formalization lineage through which the ESIH structural principles are expressed in the SEAM mathematics.</p>
+<p>The narrative definition states the physical meaning of a principle. The formalism supplies the complete mathematical state required to calculate that principle in a particular case:</p>
+<div class="math-display"><img class="math-image" src="assets/formulas/dbaf937ab17a65a27018.svg" alt="\boxed{
+\text{formalism}
+=
+\text{mathematical realization of the narrative definition}
+}" width="512" height="24" style="width:63.913ex;height:auto;vertical-align:-0.79ex" decoding="sync"></div>
+<p>The existence standard distinguishes possible and realized existence:</p>
+<div class="math-display"><img class="math-image" src="assets/formulas/fb7b6074ccdc9c25692a.svg" alt="\boxed{
+\mathcal C_{\rm possible}
+=
+\mathcal A_{\rm SEAM}
+}" width="142" height="29" style="width:17.684ex;height:auto;vertical-align:-1.254ex" decoding="sync"></div>
+<div class="math-display"><img class="math-image" src="assets/formulas/a28bafc79b85019582f3.svg" alt="\boxed{
+\mathcal C_{\rm realized}
+\subseteq
+\mathcal A_{\rm SEAM}
+}" width="141" height="26" style="width:17.581ex;height:auto;vertical-align:-0.985ex" decoding="sync"></div>
+<p>The Continuum is the physical domain. The Continuum Manifold is the retained and normalized record of observed or resolved portions of that domain:</p>
+<div class="math-display"><img class="math-image" src="assets/formulas/8d24dd77f712f7e6838a.svg" alt="\boxed{
+\mathcal M_t
+=
+\operatorname{RetainNormalize}
+\left(
+\operatorname{ObservedResolved}(\mathcal C_{\rm realized})
+\right).
+}" width="429" height="28" style="width:53.553ex;height:auto;vertical-align:-1.17ex" decoding="sync"></div>
+<h3>Current quantitative execution scope</h3>
+<p>Architectural scope and executed numerical scope are recorded separately.</p>
+<p>The atomic structural domain carries the fully explicit numerical admissibility implementation presently retained in the archive. Molecular, aggregate, electromagnetic, propagation, material, biological, and macroscopic domains inherit the same structural admissibility and interaction architecture through their declared native constructors.</p>
+<p>Chemistry and biology retain the same structural architecture. B01 supplies an executed single-frequency light-transfer contract, receiver/emitter recursion, entropy-successor controls, explicit partnership controls, and a frozen bulk chemistry start; the heterogeneous full-apparatus field/entropy successor remains an unexecuted application binding.</p>
+<p>Bond interaction architecture is retained where documented. Numerical bond lengths and dissociation energies enter the evidence standing when their native calculation, seal, and comparator record are present.</p>
+<p>Macroscopic interaction and force architecture are retained where documented. Absolute SI force values and a numerical derivation of <img class="math-image" src="assets/formulas/333e0a1e27815d0ceee5.svg" alt="G" width="15" height="14" style="width:1.778ex;height:auto;vertical-align:-0.05ex" decoding="sync"> enter the evidence standing through their own completed native execution and evidence records.</p>
+<p>Continued calculation expands quantitative coverage while preserving the same first-principles architecture.</p>
+<h2>How to read this document</h2>
+<p>Each phase below states five things and nothing else:</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Consumes</strong></td>
+<td>exactly what enters the phase</td>
+</tr>
+<tr>
+<td><strong>Operation</strong></td>
+<td>the declared transformation, by name</td>
+</tr>
+<tr>
+<td><strong>Produces</strong></td>
+<td>what leaves the phase</td>
+</tr>
+<tr>
+<td><strong>Terminal</strong></td>
+<td>the phase's own disposition string</td>
+</tr>
+<tr>
+<td><strong>Reads as</strong></td>
+<td>the misreadings this phase has actually attracted, and why they are wrong</td>
+</tr>
+</tbody>
+</table>
+<p>The <strong>Reads as</strong> field exists because the cold-review provenance records identify recurring misreadings at specific phases. Naming them at the phase where they occur keeps each correction attached to the state it governs.</p>
+<hr>
+<h2>Four rules that govern every phase</h2>
+<p><strong>1. Faceted retention.</strong> A structure is described by its distinguishable aspects, retained separately. A symbol naming an aspect is part of a complete description. It is not a value awaiting computation.</p>
+<p><strong>2. Phase dispositions retain their declared meaning.</strong> <code>RESOLVED</code>, <code>EXCLUDED</code>, and <code>NOT_EVALUABLE</code> are distinct states. Exclusion is recorded only where a declared predicate has actually rejected a candidate. <code>NOT_EVALUABLE</code> records that the required native operation has not executed for that row.</p>
+<p><strong>3. Native first, comparator after.</strong> Native quantities are produced without reference to any conventional or measured value. Comparators enter only after the native result is frozen, and only to test it. A comparator may never define a native quantity.</p>
+<p><strong>4. Notation is not a handoff.</strong> An expression such as <img class="math-image" src="assets/formulas/fbbbd5f98b72f3ef393c.svg" alt="E_H[C*]" width="60" height="19" style="width:7.387ex;height:auto;vertical-align:-0.566ex" decoding="sync"> names an evaluation/facet of the retained state unless this guide or a provenance binding explicitly declares a separate consumes / operation / produces boundary. Parentheses, brackets, arrows, or functional notation alone do not create another runtime stage.</p>
+<hr>
+<h2>PHASE 0 — Environment capture</h2>
+<p><strong>Consumes:</strong> nothing
+<strong>Operation:</strong> record interpreter and numeric library versions
+<strong>Produces:</strong> Python, NumPy, SciPy, platform
+<strong>Terminal:</strong> <code>ENV_CAPTURED</code></p>
+<p>Reference execution:</p>
+<p>python 3.12.3    numpy 2.4.4    scipy 1.17.1</p>
+<p>The archive's pinned reference environment is Python 3.13.5 / NumPy 2.3.5 / SciPy 1.17.0. Sealed values reproduce <strong>exactly</strong> on both. That cross-environment match is itself evidence: the sealed results are properties of the declared mathematics, not artefacts of one numeric stack.</p>
+<p><strong>Reads as:</strong> nothing. Recorded so that a reproduction on a third environment can be compared.</p>
+<hr>
+<h2>PHASE 1 — Atomic shell resolution</h2>
+<p><strong>Consumes:</strong> <code>Z</code> in 1..128; <img class="math-image" src="assets/formulas/3cf911859a5782ce076f.svg" alt="c_shell = [2, 8, 18, 32, 18, 32, 18]" width="226" height="19" style="width:28.173ex;height:auto;vertical-align:-0.566ex" decoding="sync">
+<strong>Operation:</strong> <img class="math-image" src="assets/formulas/f9f73e8c12afe6d792c9.svg" alt="Z -&gt; N(Z)" width="85" height="19" style="width:10.56ex;height:auto;vertical-align:-0.566ex" decoding="sync"> by strict fill-before-skip (Technical Foundations §5.3.3), stated as a closed-form piecewise function
+<strong>Produces:</strong> 128 resolved shell states
+<strong>Terminal:</strong> <code>ATOMIC_SHELL_STATE_RESOLVED</code></p>
+<p>Z=26  -&gt; [2, 8, 16,  0,  0,  0, 0]
+Z=29  -&gt; [2, 8, 18,  1,  0,  0, 0]
+Z=74  -&gt; [2, 8, 18, 32, 14,  0, 0]
+Z=79  -&gt; [2, 8, 18, 32, 18,  1, 0]
+Z&gt;=129 -&gt; not admissible</p>
+<p>Shell closures fall at <img class="math-image" src="assets/formulas/883aea4c3641f5c914fc.svg" alt="Z = 2, 10, 28, 60, 78, 110, 128" width="222" height="16" style="width:27.657ex;height:auto;vertical-align:-0.439ex" decoding="sync">.</p>
+<p><strong>Reads as:</strong> the two numbers 118 and 128 are frequently conflated. <strong>128</strong> is the architectural admissibility count — the capacity vector sums to 128 and the fill rule is defined to 128. <strong>118</strong> is the empirical comparison range, because 118 elements are presently known. Neither number is a rounding of the other. Statements about admissibility use 128; statements about comparison against observation use 118.</p>
+<hr>
+<h2>PHASE 2 — Atomic entropy properties</h2>
+<p><strong>Consumes:</strong> resolved shell states from Phase 1
+<strong>Operation:</strong></p>
+<p>S_config = sum_n ln C(c_n, N_n)
+S_field  = ln E - (1/E) sum_n N_n ln(N_n / V_n),    V_n = (4pi/3)[n^3 - (n-1)^3]</p>
+<p><strong>Produces:</strong> both quantities per element
+<strong>Terminal:</strong> <code>ATOMIC_ENTROPY_RESOLVED</code>
+<strong>Sealed:</strong> MATCH (5 of 5)</p>
+<p>Fe  S_config = 5.030437921392435    S_field = 4.701856904349989
+Cu                                  S_field = 4.873141663921901
+W                                   S_field = 6.057692190418670
+Au                                  S_field = 6.177105205898307</p>
+<p><strong>Reads as:</strong> <img class="math-image" src="assets/formulas/c405802933e8602b0f72.svg" alt="S_field" width="37" height="16" style="width:4.553ex;height:auto;vertical-align:-0.357ex" decoding="sync"> means only the spatial field entropy defined above. A shell-fraction/Bernoulli fill quantity is not <img class="math-image" src="assets/formulas/c405802933e8602b0f72.svg" alt="S_field" width="37" height="16" style="width:4.553ex;height:auto;vertical-align:-0.357ex" decoding="sync"> and has no canonical authority.</p>
+<hr>
+<h2>PHASE 3 — Signed shell-field operator</h2>
+<p><strong>Consumes:</strong> <img class="math-image" src="assets/formulas/c405802933e8602b0f72.svg" alt="S_field" width="37" height="16" style="width:4.553ex;height:auto;vertical-align:-0.357ex" decoding="sync"> over <img class="math-image" src="assets/formulas/e606a07c0870678b6527.svg" alt="Z = 1..128" width="84" height="14" style="width:10.436ex;height:auto;vertical-align:-0.186ex" decoding="sync">
+<strong>Operation:</strong> <strong>backward</strong> second difference, <img class="math-image" src="assets/formulas/26d9e6dee2adb3c5fe12.svg" alt="O(Z) = S(Z) - 2S(Z-1) + S(Z-2)" width="298" height="19" style="width:37.161ex;height:auto;vertical-align:-0.566ex" decoding="sync">
+<strong>Produces:</strong> sign disposition at every evaluable <code>Z</code>
+<strong>Terminal:</strong> <code>SHELL_SIGN_LAW_CLOSED</code></p>
+<p>evaluable states (Z = 3..128) : 126
+violations                    : 0
+shell openings                : Z = 1, 3, 11, 29, 61, 79, 111</p>
+<p><strong>The stencil is the claim.</strong> The same data under the three conventions gives:</p>
+<table>
+<thead>
+<tr>
+<th>stencil</th>
+<th>violations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>backward</strong></td>
+<td><strong>0</strong></td>
+</tr>
+<tr>
+<td>forward</td>
+<td>11</td>
+</tr>
+<tr>
+<td>centered</td>
+<td>12</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Reads as:</strong> two errors have occurred here. First, an audit reported &quot;centered, 117/117&quot; — the values were in fact generated with the backward stencil and mislabelled; the true centered stencil gives 12 violations. Second, the evaluable domain has been stated as 116 states over <img class="math-image" src="assets/formulas/3be3d699c78b2f27070f.svg" alt="Z = 3..118" width="84" height="14" style="width:10.436ex;height:auto;vertical-align:-0.186ex" decoding="sync">. The fill rule is defined to 128, so the domain is <img class="math-image" src="assets/formulas/669abd98919de077a2d1.svg" alt="Z = 3..128" width="84" height="14" style="width:10.436ex;height:auto;vertical-align:-0.186ex" decoding="sync"> and there are <strong>126</strong> evaluable states.</p>
+<p><strong>Non-genericity.</strong> This result is not an arithmetic identity. Tested against 2000 systems with randomised capacity vectors and randomised shell volumes, <strong>2000 of 2000 produce violations.</strong> Zero violations is a joint property of the canonical capacity vector and the annular geometry; perturb either and it fails.</p>
+<hr>
+<h2>PHASE 4 — Retained R6 bounded-band replay</h2>
+<p><strong>Consumes:</strong> resolved shell states; NUBASE2020 as the retained R6 comparator
+<strong>Operation:</strong> execute the certified nuclear formation-envelope construction and reproduce its containment result
+<strong>Produces:</strong> a provenance/replay result only
+<strong>Terminal:</strong> <code>HISTORICAL_EPN_CONTAINMENT_REPLAY_PASS</code> when the retained R6 result reproduces</p>
+<p>containment                     : 2549 / 2549 experimental states
+band cells (Z = 1..118)         : 9822
+observed span cells             : 2608
+mean band width / observed span : 3.766</p>
+<h2>PHASE 5 — Current nuclear relational formation closure</h2>
+<p><strong>Consumes:</strong> <code>(Z,N)</code> and the frozen <img class="math-image" src="assets/formulas/d0bccc0cfc97d6db7f48.svg" alt="Gamma_{Z,N}" width="37" height="18" style="width:4.624ex;height:auto;vertical-align:-0.65ex" decoding="sync"> kernel
+<strong>Operation:</strong> <img class="math-image" src="assets/formulas/7d93b84f24ff1306de07.svg" alt="Gamma_{Z,N} -&gt; mean(Gamma) -&gt; A_Gamma -&gt; E_Gamma(Z) -&gt; (N_low,N_high)" width="388" height="19" style="width:48.49ex;height:auto;vertical-align:-0.669ex" decoding="sync">
+<strong>Produces:</strong> the current lower and upper nuclear formation/admissibility selectors for Z=1..128
+<strong>Terminal:</strong> <code>NUCLEAR_FORMATION_ENVELOPE_CLOSED</code></p>
+<p>The certified locked formation-envelope evidence is the numerical authority for this phase. Its empirical positive-control surface admits 2549/2549 evaluated-experimental states, and its forward sweep terminates natively for 128/128 elements.</p>
+<p>The two interior selectors (<img class="math-image" src="assets/formulas/88c45591ece14fbe3440.svg" alt="N_most-stable^SEAM" width="86" height="23" style="width:10.731ex;height:auto;vertical-align:-0.849ex" decoding="sync">, <img class="math-image" src="assets/formulas/8e7d4b59b60ad7c97f73.svg" alt="N_longest-lived^SEAM" width="92" height="25" style="width:11.48ex;height:auto;vertical-align:-1.047ex" decoding="sync">) are additive downstream operations. R229 is a locked falsification of one proposed entropy binding and does not alter the R226 outer formation envelope.</p>
+<p><strong>Admissibility rule for any future <img class="math-image" src="assets/formulas/a918f793dac6c2fdd403.svg" alt="Xi" width="13" height="13" style="width:1.509ex;height:auto;vertical-align:0" decoding="sync"> binding.</strong> Composition universality must follow from the native construction. Equivalence-principle measurements may <strong>test</strong> that consequence; they may not be used to fit or define the coefficients of <img class="math-image" src="assets/formulas/a918f793dac6c2fdd403.svg" alt="Xi" width="13" height="13" style="width:1.509ex;height:auto;vertical-align:0" decoding="sync">. Fitting them would make the comparator define the native operator, which the directionality rule prohibits.</p>
+<hr>
+<h2>Result matrix</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Phase</th>
+<th>Branch</th>
+<th>Terminal</th>
+<th>Sealed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>Environment capture</td>
+<td>meta</td>
+<td><code>ENV_CAPTURED</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Atomic shell resolution</td>
+<td>atomic</td>
+<td><code>ATOMIC_SHELL_STATE_RESOLVED</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Atomic entropy properties</td>
+<td>atomic</td>
+<td><code>ATOMIC_ENTROPY_RESOLVED</code></td>
+<td><strong>MATCH</strong> 5/5</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Signed shell-field operator</td>
+<td>atomic</td>
+<td><code>SHELL_SIGN_LAW_CLOSED</code></td>
+<td>0/126 violations</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Current nuclear relational formation closure</td>
+<td>structural</td>
+<td><code>NUCLEAR_FORMATION_ENVELOPE_CLOSED</code></td>
+<td>R226 frozen <img class="math-image" src="assets/formulas/5233346885be9925c7d6.svg" alt="Gamma" width="12" height="13" style="width:1.414ex;height:auto;vertical-align:0" decoding="sync"> envelope; 2549/2549 empirical positive controls; 128/128 finite forward termination</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Molecular variational field</td>
+<td>molecular</td>
+<td><code>VARIATIONAL_FIELD_RESOLVED</code></td>
+<td><strong>MATCH</strong></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Two-stage pair relation</td>
+<td>molecular</td>
+<td><code>SEAM_RESOLVED_STATE_PAIR_RELATION_CLOSED</code></td>
+<td><strong>MATCH</strong> 3/3</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Retained mass state</td>
+<td>mass</td>
+<td><code>RETAINED_MASS_STATE_RESOLVED</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Macro source continuation</td>
+<td>macro</td>
+<td><code>CURRENT_CANONICAL_EXECUTION</code></td>
+<td>governed by current interaction and projection chain</td>
+</tr>
+</tbody>
+</table>
+<p><strong>All sealed values reproduce: TRUE</strong> — on an environment differing from the pinned reference in interpreter and both numeric libraries.</p>
+<hr>
+<h2>Misreading index</h2>
+<p>Every entry below occurred during an independent cold review. Each is listed with the phase it arises at and the fact that resolves it.</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Misreading</th>
+<th>Phase</th>
+<th>Resolution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>116 evaluable states for the sign law</td>
+<td>3</td>
+<td>fill rule runs to 128; domain is <img class="math-image" src="assets/formulas/27d6aa58055be99d7ab0.svg" alt="Z=3..128" width="84" height="14" style="width:10.436ex;height:auto;vertical-align:-0.186ex" decoding="sync">, 126 states</td>
+</tr>
+<tr>
+<td>2</td>
+<td>&quot;centered stencil gives 0 violations&quot;</td>
+<td>3</td>
+<td>those values were backward; centered gives 12</td>
+</tr>
+<tr>
+<td>3</td>
+<td><img class="math-image" src="assets/formulas/c405802933e8602b0f72.svg" alt="S_field" width="37" height="16" style="width:4.553ex;height:auto;vertical-align:-0.357ex" decoding="sync"> value does not reproduce</td>
+<td>2</td>
+<td>verify the spatial field-entropy definition and frozen evaluation domain</td>
+</tr>
+<tr>
+<td>4</td>
+<td>118/118 containment reads as precision</td>
+<td>4</td>
+<td>containment is scope; width ratio is 3.766</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Nuclear source binding mismatch</td>
+<td>5</td>
+<td>use the current <img class="math-image" src="assets/formulas/d0bccc0cfc97d6db7f48.svg" alt="Gamma_{Z,N}" width="37" height="18" style="width:4.624ex;height:auto;vertical-align:-0.65ex" decoding="sync"> formation-envelope authority</td>
+</tr>
+<tr>
+<td>6</td>
+<td>fixed-support run treated as the variational result</td>
+<td>6</td>
+<td><img class="math-image" src="assets/formulas/db04141412379e1a976d.svg" alt="u^(0) in U" width="55" height="16" style="width:6.783ex;height:auto;vertical-align:-0.09ex" decoding="sync"> does not imply <img class="math-image" src="assets/formulas/80b978732f48164e2ed3.svg" alt="u^(0) = u*" width="62" height="17" style="width:7.724ex;height:auto;vertical-align:-0.186ex" decoding="sync"></td>
+</tr>
+<tr>
+<td>7</td>
+<td>equal <img class="math-image" src="assets/formulas/09e2ca804c7be37fdae8.svg" alt="S*" width="21" height="14" style="width:2.59ex;height:auto;vertical-align:-0.05ex" decoding="sync"> read as identical configurations</td>
+<td>6</td>
+<td><img class="math-image" src="assets/formulas/b64e8bf55b02e67aaaf7.svg" alt="C = ({Sigma}, R)" width="87" height="19" style="width:10.853ex;height:auto;vertical-align:-0.566ex" decoding="sync">; the relational coordinate is retained</td>
+</tr>
+<tr>
+<td>8</td>
+<td><img class="math-image" src="assets/formulas/91212d0d58855f8feff4.svg" alt="E_ab g_Theta S_ab" width="75" height="17" style="width:9.322ex;height:auto;vertical-align:-0.464ex" decoding="sync"> read as three unpopulated inputs</td>
+<td>7</td>
+<td>faceted description of one resolved consequence</td>
+</tr>
+<tr>
+<td>9</td>
+<td>terminal from one branch applied to another</td>
+<td>7</td>
+<td>shared notation is not shared operator scope</td>
+</tr>
+<tr>
+<td>10</td>
+<td>macro stop declared at an unbound <img class="math-image" src="assets/formulas/a918f793dac6c2fdd403.svg" alt="Xi" width="13" height="13" style="width:1.509ex;height:auto;vertical-align:0" decoding="sync"></td>
+<td>9</td>
+<td><img class="math-image" src="assets/formulas/a918f793dac6c2fdd403.svg" alt="Xi" width="13" height="13" style="width:1.509ex;height:auto;vertical-align:0" decoding="sync"> factors out for a same-material body</td>
+</tr>
+<tr>
+<td>11</td>
+<td>atomic weight expected as the mass state</td>
+<td>8</td>
+<td>mass state is faceted; the scalar is a lossy projection</td>
+</tr>
+<tr>
+<td>12</td>
+<td>absence concluded from a text search</td>
+<td>all</td>
+<td>search is navigation only; read the section</td>
+</tr>
+<tr>
+<td>13</td>
+<td><img class="math-image" src="assets/formulas/fbbbd5f98b72f3ef393c.svg" alt="E_H[C*]" width="60" height="19" style="width:7.387ex;height:auto;vertical-align:-0.566ex" decoding="sync"> read as a missing standalone runtime</td>
+<td>6–7</td>
+<td>Hamiltonian facet/evaluation of retained <img class="math-image" src="assets/formulas/71e8eeb394cd4b9e6eae.svg" alt="C*" width="23" height="14" style="width:2.851ex;height:auto;vertical-align:-0.05ex" decoding="sync">; no handoff exists unless explicitly contracted</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>Contract</h2>
+<p>LOCKED_RUNNER_R30</p>
+<ul>
+<li>every phase executes in canonical order; none may be skipped or reordered</li>
+<li>every phase reports consumes / operation / produces / terminal / sealed check</li>
+<li>each phase reports the counts appropriate to its declared state vocabulary; Phase 5 reports evaluated / resolved / excluded / not_evaluable without reclassifying unevaluated rows as eliminated</li>
+<li>a phase producing no numeric result reports its disposition, not a clean exit</li>
+<li>environment is captured; sealed values must reproduce across environments</li>
+<li>comparators enter only after the native result of their phase is frozen</li>
+</ul>
+<p>Invocation:</p>
+<pre><code class="language-bash">python3 Evidence/Runtime/locked_runner.py                    # full transcript
+python3 Evidence/Runtime/locked_runner.py --json out.json    # machine-readable matrix
+python3 Evidence/Runtime/locked_runner.py --quiet --json out.json
+</code></pre>
+<h2>PHASE 7A — Single-frequency receiver/emitter chain and chemistry handoff</h2>
+<p><strong>Input:</strong> a resolved emitter state, a complete receiver molecular/material state, and a frozen native periodicity coordinate.</p>
+<p>For the B01 controlled run,</p>
+<div class="math-display"><img class="math-image" src="assets/formulas/915bdbbe22a4c1e968aa.svg" alt="f_t=500\ \mathrm{THz}." width="111" height="17" style="width:13.814ex;height:auto;vertical-align:-0.464ex" decoding="sync"></div>
+<ol>
+<li>Evaluate the receiver under the incoming complete excitation.</li>
+<li>If native structured transfer is nonzero and compatible, retain the resulting excited receiver state.</li>
+<li>Record any simultaneous local field/entropy/thermal response without presuming attenuation, augmentation, or frequency change.</li>
+<li>Use the resulting excited receiver state as the emitter for the next link under the same transfer relation.</li>
+<li>At the chemistry handoff, retain the actual atomic partnership graph of the excited molecular composition.</li>
+<li>Reevaluate existing partnerships under the excited field using the complete entropy selector.</li>
+<li>Classify each calculated relation as retained, shifted, or lost/split-favored only from the entropy result.</li>
+<li>After any accepted relational change, recompute the entire molecular field/entropy state before continuing.</li>
+<li>Stop only at a structural terminal. Apply energy projection afterward.</li>
+</ol>
+<p><strong>Current B01 execution boundary:</strong> the current runtime does not provide the heterogeneous N-node complete-field/entropy evaluator needed for the chlorophyll + 6CO2 + 6H2O excited graph. Do not substitute R4 or preselect products.</p>
+<h2>Universal interaction execution cycle</h2>
+<p>For every SEAM interaction, irrespective of scale or conventional domain:</p>
+<ol>
+<li>Freeze the complete incoming structure <img class="math-image" src="assets/formulas/1f7aac7012fb920c72e5.svg" alt="Y_i^{pre}" width="35" height="20" style="width:4.319ex;height:auto;vertical-align:-0.682ex" decoding="sync">.</li>
+<li>Apply or receive the admissible perturbation <img class="math-image" src="assets/formulas/85070bce2ab71e0b10dc.svg" alt="\Delta Y_{pert}" width="50" height="19" style="width:6.236ex;height:auto;vertical-align:-0.65ex" decoding="sync">.</li>
+<li>Resolve the complete resulting structure <img class="math-image" src="assets/formulas/7a666a12273dffc2e3b4.svg" alt="Y_i^{post}" width="40" height="23" style="width:4.956ex;height:auto;vertical-align:-0.682ex" decoding="sync">.</li>
+<li>Compute the native structured transfer:</li>
+</ol>
+<div class="math-display"><img class="math-image" src="assets/formulas/f3cfd6eef4ed88d356a7.svg" alt="T_i=\mathfrak D_{\rm struct}[Y_i^{pre}\rightarrow Y_i^{post}]." width="208" height="23" style="width:25.932ex;height:auto;vertical-align:-0.682ex" decoding="sync"></div>
+<ol start="5">
+<li>Re-resolve entropy and relational closure in the post-perturbation state.</li>
+<li>If the relational state changes, treat the resulting complete state as the next pre-perturbation structure.</li>
+<li>Repeat until the post-perturbation structure no longer changes under the admitted input and retained state history.</li>
+</ol>
+<p>Canonical shorthand:</p>
+<div class="math-display"><img class="math-image" src="assets/formulas/ec60e8533eaac0e0b9f2.svg" alt="\boxed{
+\text{structure}\rightarrow\text{perturbation}\rightarrow\text{structure}
+}" width="309" height="26" style="width:38.609ex;height:auto;vertical-align:-1.043ex" decoding="sync"></div>
+<p>This cycle applies equally to propagation, material reception, atomic interaction, molecular restructuring, thermal response, and subsequent composite-state evolution. No separate domain operator replaces it.</p>
+<h2>PHASE 10 — Fixed thermodynamic stochastic-field accounting</h2>
+<p><strong>Consumes:</strong> frozen complete-state confinement cases A/B/C; R49 event law; H2O atomic-invariance control.</p>
+<p><strong>Operation:</strong> execute <img class="math-image" src="assets/formulas/69c5c020c74844d2a2ce.svg" alt="Y_i + DeltaY_i -&gt; Y_(i+1) + R_i" width="173" height="17" style="width:21.599ex;height:auto;vertical-align:-0.471ex" decoding="sync"> over A→B→C→A, preserving complete state facets and explicit output accounting.</p>
+<p><strong>Produces:</strong> retained successor records, explicit <img class="math-image" src="assets/formulas/7eff35b78ae801b4209a.svg" alt="R_i" width="20" height="16" style="width:2.457ex;height:auto;vertical-align:-0.357ex" decoding="sync">, entropy/field deltas, relational-change record, exact-return adjudication.</p>
+<p><strong>Terminal:</strong> <code>THERMODYNAMIC_STOCHASTIC_FIELD_ACCOUNTING_CLOSED_FIXED_EXAMPLE</code>.</p>
+<p><strong>Sealed result:</strong> PASS; primary/replay byte-identical.</p>
+<p>This phase does not calibrate downstream temperature, pressure, heat, latent heat, or material-specific phase thresholds.</p>
+<h2>PHASE 11 — Persistent atom ancestry resolution</h2>
+<p><strong>Consumes:</strong> persistent atom identities, observed/model structural labels, explicit evidence bindings, exported-entity constituent record.</p>
+<p><strong>Operation:</strong> bind labels to persistent identities only through proven <code>beta_t</code>; propagate identity continuously; resolve export ancestry only when every constituent binding is unique and complete.</p>
+<p><strong>Terminal:</strong> <code>ANCESTRY_RESOLVED</code> or <code>NOT_EVALUABLE_IDENTITY_BINDING_INCOMPLETE</code>.</p>
+<p>The R49 OEC case currently reaches the latter terminal.</p>
+<h2>PHASE 12 — Fixed thermal Hamiltonian projection</h2>
+<p><strong>Consumes:</strong> two resolved complete pair states at selected and separated native relation coordinates; frozen downstream temperature.</p>
+<p><strong>Operation:</strong> evaluate <img class="math-image" src="assets/formulas/ba38b4bb47e23d0374fc.svg" alt="DeltaH_th=T[S*(N_r)-S_infinity]" width="231" height="19" style="width:28.824ex;height:auto;vertical-align:-0.666ex" decoding="sync"> only after native state resolution.</p>
+<p><strong>Terminal:</strong> <code>THERMAL_HAMILTONIAN_COMPONENT_CLOSED_FIXED_EXAMPLE</code>.</p>
+<p>The phase does not emit total bond energy or a general transfer currency.</p>
+<h2>PHASE 13 — Three-node complete-state deterministic evaluation</h2>
+<p><strong>Consumes:</strong> retained atomic shell states and frozen three-node relational geometry.</p>
+<p><strong>Operation:</strong> evaluate the unchanged complete entropy law using shell-boundary-partitioned x/y quadrature, exact piecewise z integration, and exact canonical overlap normalization.</p>
+<p><strong>Controls:</strong> Cu3 retained-Cu2 successor comparison; heterogeneous H-H-O exact-contact zero-overlap control.</p>
+<p><strong>Terminal:</strong> <code>NNODE_THREE_NODE_COMPLETE_STATE_NUMERICAL_FIXED_EXAMPLE_CLOSED</code>.</p>
+<p><strong>Scope:</strong> fixed three-node numerical qualification. Larger-N states require separate convergence qualification; no new physical term is authorized.</p>
+<h2>R56 — fixed faceted structured-transfer closure</h2>
+<p>Locked run <code>STRUCTURED-TRANSFER-FACETED-01</code> executes the canonical interaction object</p>
+<div class="math-display"><img class="math-image" src="assets/formulas/0c434b8679f4e4be44e7.svg" alt="T[Y_i^{pre},Y_i^{post}]=\mathfrak D_{\rm struct}[Y_i^{pre}\rightarrow Y_i^{post}]" width="291" height="23" style="width:36.374ex;height:auto;vertical-align:-0.682ex" decoding="sync"></div>
+<p>without scalar reduction. The fixed example retains numeric entropy/coupling/confinement/count facets, the native distance vector, and the categorical relational transition. Direct reversal is exact. Over the closed A→B→C→A cycle every additive facet returns zero componentwise and the categorical relational state returns to its original value.</p>
+<p>The run also falsifies promotion of <img class="math-image" src="assets/formulas/152f0f15a7771bcc7df6.svg" alt="Delta S_total" width="54" height="16" style="width:6.748ex;height:auto;vertical-align:-0.357ex" decoding="sync"> to the universal transfer object: the B→C transition contains a relational category change, overlap-count change, coupling change, and vector geometry change that are not encoded by the entropy scalar alone.</p>
+<p><strong>Standing:</strong> the universal native transfer object is the faceted structured difference and is CLOSED as a fixed executable example. A universal scalar transfer magnitude is not a missing first-principles object. Scalar quantities are admissible only through independently declared downstream projections such as the R53 thermal Hamiltonian component.</p>
+<p>Evidence: <code>Evidence/Locked_Runs/STRUCTURED-TRANSFER-FACETED-01/</code>.</p>
+<h2>R57 — pair/event time-metrology boundary closure</h2>
+<p>Locked run <code>PAIR-TAU-EVENT-METROLOGY-01</code> distinguishes physical evolution time from static selected-state comparison. The native resolver remains</p>
+<div class="math-display"><img class="math-image" src="assets/formulas/7fb1e108c794a8f24463.svg" alt="T(X)=n_{Cs}(X)/9,192,631,770." width="253" height="19" style="width:31.587ex;height:auto;vertical-align:-0.566ex" decoding="sync"></div>
+<p>An actual event carrying <img class="math-image" src="assets/formulas/0653132336ae076a62cb.svg" alt="n_Cs=9,192,631,770" width="166" height="16" style="width:20.678ex;height:auto;vertical-align:-0.439ex" decoding="sync"> resolves exactly to one second. The static Cu-Cu selected/reference states from R53 contain no declared physical evolution interval and therefore return <code>NOT_EVALUABLE_NO_PHYSICAL_INTERVAL</code>; <img class="math-image" src="assets/formulas/076cef47bd3afb7f3662.svg" alt="Delta tau_SEAM=0" width="95" height="17" style="width:11.855ex;height:auto;vertical-align:-0.381ex" decoding="sync"> is not inferred. <img class="math-image" src="assets/formulas/ac27719a643819fe81e2.svg" alt="N_r" width="22" height="16" style="width:2.726ex;height:auto;vertical-align:-0.357ex" decoding="sync">, entropy difference, frequency, dimensional distance, and wall-clock runtime are prohibited substitutes.</p>
+<p><strong>Standing:</strong> time/event mapping formalism CLOSED. A numerical molecular-event interval requires explicit Cs-count evidence for that event. Static pair-state comparison alone does not define a pair clock.</p>
+<p>Evidence: <code>Evidence/Locked_Runs/PAIR-TAU-EVENT-METROLOGY-01/</code>.</p>
+<h2>R231 canonical nuclear authority lock</h2>
+<p>Current nuclear formation authority is the certified <img class="math-image" src="assets/formulas/d0bccc0cfc97d6db7f48.svg" alt="Gamma_{Z,N}" width="37" height="18" style="width:4.624ex;height:auto;vertical-align:-0.65ex" decoding="sync"> four-selector contract.</p>
+
+</main>
+
+  <footer>
+    <p><strong>The Continuum Paradigm</strong> · Canonical revision R242 · <a href="./LICENSE">MIT License</a></p>
+  </footer>
+</body>
+</html>
