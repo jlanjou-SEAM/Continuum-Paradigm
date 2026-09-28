@@ -71,6 +71,21 @@ Closure is scope-specific. It does **not** mean that the release contains 210 in
 
 See the [current standing](./CURRENT_STANDING.md), [closure and standing matrix](./04_CONTINUUM_CLOSURE_AND_STANDING_MATRIX.md), [evidence and verification record](./05_CONTINUUM_EVIDENCE_AND_VERIFICATION_RECORD.md), and [scientific claim scope breakdown](./SCIENTIFIC_CLAIM_SCOPE_BREAKDOWN.md) for the authoritative qualifications.
 
+## PDF Versions
+
+All core documents are available as professionally formatted PDFs with LaTeX mathematical formulas:
+
+- [00_README.pdf](./pdfs/00_README.pdf)
+- [01_CONTINUUM_CANONICAL_CHARTER.pdf](./pdfs/01_CONTINUUM_CANONICAL_CHARTER.pdf)
+- [02_CONTINUUM_TECHNICAL_FOUNDATIONS.pdf](./pdfs/02_CONTINUUM_TECHNICAL_FOUNDATIONS.pdf)
+- [03_CONTINUUM_ENGINE_AND_VALIDATION_PROTOCOL.pdf](./pdfs/03_CONTINUUM_ENGINE_AND_VALIDATION_PROTOCOL.pdf)
+- [04_CONTINUUM_CLOSURE_AND_STANDING_MATRIX.pdf](./pdfs/04_CONTINUUM_CLOSURE_AND_STANDING_MATRIX.pdf)
+- [05_CONTINUUM_EVIDENCE_AND_VERIFICATION_RECORD.pdf](./pdfs/05_CONTINUUM_EVIDENCE_AND_VERIFICATION_RECORD.pdf)
+- [06_CONTINUUM_CRITICAL_READER_GUIDE.pdf](./pdfs/06_CONTINUUM_CRITICAL_READER_GUIDE.pdf)
+- [07_CONTINUUM_PHASE_BY_PHASE_EXECUTION_GUIDE.pdf](./pdfs/07_CONTINUUM_PHASE_BY_PHASE_EXECUTION_GUIDE.pdf)
+
+PDFs can be viewed directly in your browser or downloaded for offline reading.
+
 ## How to read the repository
 
 1. [Canonical charter](./01_CONTINUUM_CANONICAL_CHARTER.md) - first principles and authority.
