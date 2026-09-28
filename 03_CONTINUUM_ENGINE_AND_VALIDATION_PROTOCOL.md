@@ -994,6 +994,8 @@ The empirical reference lineage is pinned by contract. The executed mass adjudic
 | MATCHED_EXTRAPOLATED mass rows | **8/118** |
 | UNMATCHED rows | **0/118** |
 
+**Claim annotation:** The 110 ADMITTED_MEASURED rows represent elements with existing mass measurement records in the reference lineage. The 8 MATCHED_EXTRAPOLATED rows have no existing empirical mass records and are therefore extrapolated from the framework's state construction rather than measured. These 8 are joined to the adjudication set by nuclide-level identity match while flagging their measurement status as extrapolation.
+
 The neutron result establishes complete observed-state containment across the 118-element empirical comparison set. The mass join dispositions every native row while retaining neutron conditioning and nuclide-level measurement identity.
 
 ---
