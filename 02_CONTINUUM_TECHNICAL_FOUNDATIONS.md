@@ -41,9 +41,9 @@ The Continuum Paradigm uses one integrated architecture with distinct responsibi
 
 \[
 \boxed{
-\text{AEPS}
+\text{AEPAS}
 =
-\text{definition of how energy interacts with and distributes across structure}
+\text{definition of how electromagnetic energy interacts with and distributes across structure}
 }
 \]
 
@@ -6410,7 +6410,7 @@ C_O^{solid}=C_O^{liquid}=C_O^{vapor}
 
 within the tested atomic resolver contract.
 
-This closes the isolated atomic-base-change hypothesis for ordinary H2O phase change. The thermal distinction occurs above the isolated-atom layer in the complete substrate state. Canonical AEPS already assigns thermal restructuring to \(\Delta Y_{th}\), which may alter phase or density structure without introducing a separate physical law. The required causal placement is therefore:
+This closes the isolated atomic-base-change hypothesis for ordinary H2O phase change. The thermal distinction occurs above the isolated-atom layer in the complete substrate state. Canonical AEPAS already assigns thermal restructuring to \(\Delta Y_{th}\), which may alter phase or density structure without introducing a separate physical law. The required causal placement is therefore:
 
 \[
 \boxed{

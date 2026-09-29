@@ -41,9 +41,9 @@ The Continuum Paradigm uses one integrated architecture with distinct responsibi
 
 \[
 \boxed{
-\text{AEPS}
+\text{AEPAS}
 =
-\text{definition of how energy interacts with and distributes across structure}
+\text{definition of how electromagnetic energy interacts with and distributes across structure}
 }
 \]
 
