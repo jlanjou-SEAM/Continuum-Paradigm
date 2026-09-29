@@ -1319,13 +1319,19 @@ No entity may be used that cannot trace itself to a qualified first principle. *
 
 ### 4.3 Non-generative comparator rule
 
-Stated explicitly in the canonical Markdown Technical Foundations file: no empirical observable or dimensional comparator may define
+Stated explicitly in the canonical Markdown Technical Foundations file: no empirical observable or dimensional comparator may define any of the following native state parameters:
 
-```
-λ_A, N_A, ν_A, M_A, L_A, τ_A, V_A, N_r, or C*
-```
+- **λ_A** — Coupling coefficient or interaction-strength normalization
+- **N_A** — Atom or particle count in the system
+- **ν_A** — Frequency, mode count, or quantum number representation
+- **M_A** — Rest mass or inertial mass of the system
+- **L_A** — Angular momentum or characteristic length scale
+- **τ_A** — Time scale, lifetime, or orbital period
+- **V_A** — Volume, potential energy, or configuration space
+- **N_r** — Reference particle count or normalization basis
+- **C*** — Complete state or optimal structural configuration
 
-The empirical adapter is validation-only and is *prohibited* from defining any native state.
+The empirical adapter is validation-only and is *prohibited* from defining any native state. Comparators measure and validate; they do not construct the framework.
 
 ### 4.4 Terminal-state supremacy and no-repair (Appendix H.1.1)
 

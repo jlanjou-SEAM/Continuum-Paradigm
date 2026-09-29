@@ -1084,9 +1084,19 @@ current build only (see §3)</p>
 <h3>4.2 First-principles traceability</h3>
 <p>No entity may be used that cannot trace itself to a qualified first principle. <strong>SI units and <code>c</code> are not permitted to stand as foundations.</strong> They may appear only in the projection/reporting layer, downstream of a sealed native result.</p>
 <h3>4.3 Non-generative comparator rule</h3>
-<p>Stated explicitly in the canonical Markdown Technical Foundations file: no empirical observable or dimensional comparator may define</p>
-<p>λ_A, N_A, ν_A, M_A, L_A, τ_A, V_A, N_r, or C*</p>
-<p>The empirical adapter is validation-only and is <em>prohibited</em> from defining any native state.</p>
+<p>Stated explicitly in the canonical Markdown Technical Foundations file: no empirical observable or dimensional comparator may define any of the following native state parameters:</p>
+<ul>
+<li><strong>λ_A</strong> — Coupling coefficient or interaction-strength normalization</li>
+<li><strong>N_A</strong> — Atom or particle count in the system</li>
+<li><strong>ν_A</strong> — Frequency, mode count, or quantum number representation</li>
+<li><strong>M_A</strong> — Rest mass or inertial mass of the system</li>
+<li><strong>L_A</strong> — Angular momentum or characteristic length scale</li>
+<li><strong>τ_A</strong> — Time scale, lifetime, or orbital period</li>
+<li><strong>V_A</strong> — Volume, potential energy, or configuration space</li>
+<li><strong>N_r</strong> — Reference particle count or normalization basis</li>
+<li><strong>C*</strong> — Complete state or optimal structural configuration</li>
+</ul>
+<p>The empirical adapter is validation-only and is <em>prohibited</em> from defining any native state. Comparators measure and validate; they do not construct the framework.</p>
 <h3>4.4 Terminal-state supremacy and no-repair (Appendix H.1.1)</h3>
 <p>When a terminal predicate becomes true, the run terminates at that operation:</p>
 <p>DETECT_TERMINAL -&gt; RECORD_TRIGGER -&gt; COMPLETE_AVAILABLE_REQUIRED_ARTIFACTS -&gt; HASH -&gt; SEAL -&gt; STOP</p>
