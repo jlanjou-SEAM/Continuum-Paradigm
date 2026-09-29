@@ -2,6 +2,14 @@
 
 > **CURRENT-BUILD AUTHORITY:** All active registered claims are adjudicated and closed at their declared scope. Terminal classes described in this document are execution semantics for posed inputs and do not denote unfinished canonical project work.
 
+## Architecture and acronym definitions
+
+This document uses the following fundamental architecture layers, consistently referenced throughout:
+
+- **ESIH** (Elementary Structural Interaction Hypothesis) — definition of permissible structure and possible existence
+- **AEPS** (Atomic Energy Principle System) — definition of how energy interacts with and distributes across structure
+- **SEAM** (Systemic Empirical Atomic Model) — mathematical representation and execution of structure, relation, interaction, and state change
+- **ESAM** (Elementary-Structural Abstract Mathematics) — the mathematical-formalization lineage through which ESIH structural principles are expressed in SEAM mathematics
 
 ## Current evidence architecture
 

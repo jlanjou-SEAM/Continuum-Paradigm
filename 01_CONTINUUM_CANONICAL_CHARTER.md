@@ -2,11 +2,18 @@
 
 > **CURRENT-BUILD AUTHORITY:** All active registered claims are adjudicated and closed at their declared scope. Terminal classes described in this document are execution semantics for posed inputs and do not denote unfinished canonical project work.
 
+## Architecture and acronym definitions
 
+This document uses the following fundamental architecture layers, consistently referenced throughout:
+
+- **ESIH** (Elementary Structural Interaction Hypothesis) — definition of permissible structure and possible existence
+- **AEPS** (Atomic Energy Principle System) — definition of how energy interacts with and distributes across structure
+- **SEAM** (Systemic Empirical Atomic Model) — mathematical representation and execution of structure, relation, interaction, and state change
+- **ESAM** (Elementary-Structural Abstract Mathematics) — the mathematical-formalization lineage through which ESIH structural principles are expressed in SEAM mathematics
 
 ## Canonical closure interpretation — upstream resolution required
 
-A registered claim is certified closed when the record states **what SEAM resolves upstream that produces the observation or makes the conventional description downstream**. The required order is:
+A registered claim is certified closed when the record states **what SEAM (Systemic Empirical Atomic Model) resolves upstream that produces the observation or makes the conventional description downstream**. The required order is:
 
 `native complete structure → native relation/field/selector consequence → frozen result → conventional representation/comparator`
 
