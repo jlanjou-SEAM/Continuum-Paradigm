@@ -1546,11 +1546,11 @@ A closed mathematical chain and a validated physical law are different claims. T
 
 ## 10. Reviewer session note (segregated — not a cold-read finding)
 
-*Everything in this section is the author's own session context and is not a property of any repository artifact. It is recorded here because the failure pattern is useful, and segregated here because it is not cold-read content.*
+*Everything in this section is an independent reviewer's session context and is not a property of any repository artifact. It is recorded here because the failure pattern is useful, and segregated here because it is not cold-read content.*
 
-In the session that produced this document, the author made the same class of error four times: comparing native shell occupancy against NIST assignments; comparing the greedy seed against the entropy selector; reaching for `c` as a length bridge; and skipping H.12 when reproducing the radial runs. A fifth appeared in v1.0 of this very document — asserting a supersession relationship without checking timestamps, and conflating a specific closed form with a general one.
+In the session that produced this document, an independent reviewer found the same class of error four times: comparing native shell occupancy against NIST assignments; comparing the greedy seed against the entropy selector; reaching for `c` as a length bridge; and skipping H.12 when reproducing the radial runs. A fifth appeared in v1.0 of this very document — asserting a supersession relationship without checking timestamps, and conflating a specific closed form with a general one.
 
-Every instance shared one cause: concluding before completing the read. The traps in §5 are those five failures written so the next reviewer does not have to rediscover them.
+Every instance shared one cause: concluding before completing the read. The traps in §5 are those five failures documented so that the next reviewer does not have to rediscover them.
 
 ---
 
