@@ -605,6 +605,41 @@ Z(n)
 
 Z(n) is the baseline number of electrons to be distributed. It is the canonical atomic start.
 
+## 4.10A Shell fill, skip, and pairwise relation
+
+This section states, in prose, the construction rules that Sections 4.11 and 4.13 use without defining. They are restated from the Ground Up ESAM sources (`02-ESAM/ESAM_CANONICAL.md` §1–2 and `02-ESAM/Methodology/ESAM_SHELL_FILL_SKIP_PROTOCOL_EXPLICIT.json`).
+
+### Fill-and-skip protocol
+
+1. Fill shells from n = 1 upward.
+2. Shell n holds at most c_n electrons, with c = [2, 8, 18, 32, 18, 32, 18].
+3. When shell n holds c_n electrons, it is full.
+4. The next electron skips to shell n+1. No shell is overfilled.
+5. The valence shell is the outermost occupied shell after the skip. A partly filled shell beneath an occupied outer shell is not the valence shell.
+
+Worked examples under this protocol:
+
+- He: shell 1 full (2/2). Valence shell n = 1, σ = 1.0.
+- H: shell 1 half filled (1/2). Valence shell n = 1, σ = 0.5.
+- Li: shell 1 full (2/2), shell 2 holds 1 of 8. Valence shell n = 2, σ = 0.125.
+
+### Valence occupancy
+
+σ_valence = ρ_valence / c_valence, where ρ_valence is the electron count in the valence shell and c_valence its capacity.
+
+### Pairwise relation
+
+For a configuration of entities, r_ij is the separation between entities i and j. It is computed over **all** pairs, not only directly bonded pairs. The reason is a CO₂ test: computing only the bonded pairs (C–O₁ and C–O₂) gives the same values for linear and bent geometries, because both bond lengths are fixed. Including the non-bonded O₁–O₂ separation distinguishes them. With the C–O bond held at 1.16 Å, O₁–O₂ is 2.32 Å for a linear arrangement and 1.64 Å at 90°. These are pure-geometry values, not empirical measurements.
+
+Distances alone cannot distinguish a configuration from its mirror image. For four non-coplanar entities, the signed triple product χ_ijkl = sgn[(r_j − r_i) · ((r_k − r_i) × (r_l − r_i))] is added to the relation set. It flips sign under reflection.
+
+### Status of these rules
+
+Read these before relying on the rules above.
+
+- **Fill-and-skip rule: refuted against measured ground states.** Compared with NIST ASD ground-state configurations, 73 of 108 tested elements (from potassium, Z = 19, onward) are not members of the set this rule produces. The mismatch reflects the 4s-before-3d ordering (the Madelung n + l rule) and the d- and f-block cases. The worked examples above stop at neon for this reason. Source: `03-SEAM-supporting/PHYSICS_CONTENT_VERIFICATION_Item1_Item3_ShellRule.md`.
+- **Bonding force from σ_valence: superseded.** The force F_interactive = F_valence × R_inner, and the σ-based variant that followed it, are superseded. Against 29 real diatomics, the {ρₙ}-only force gave Pearson r = 0.11. The asymmetry(σ_v) term in F_valence is never defined in the reviewed sources.
+
 ## 4.11 Seven-shell capacity vector
 
 c_shell = (c_1,...,c_7) = \[2,8,18,32,18,32,18\]
